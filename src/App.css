@@ -931,6 +931,17 @@ list-style: none;
   
 
 }
+.tracking{
+  text-align: center;
+  font-size: 0.5rem;
+  margin-top: 0px;
+  margin: 5px auto;
+  font-weight: 100;
+  opacity: 0.5;
+  font-family: poppins,sans-serif;
+  justify-content: center;
+  align-items: center;
+}
 .footer-header1{
   padding-top: 5.5rem;
 }
@@ -2447,6 +2458,14 @@ list-style: none;
    
 
 }
+.contact-container{
+  width: 100%;
+  height:50rem;
+  background-color:#f8f8f8;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+}
  .contacts-services12{
   width: 98%;
   height: 100%;
@@ -2472,6 +2491,9 @@ list-style: none;
   align-items: center;
   color: white;
  
+}
+.contacts-container{
+
 }
 .contactts-container{
   width: 100%;
@@ -2540,6 +2562,14 @@ list-style: none;
  font-family: poppins,sans-serif;
    
 
+}
+.About-container{
+  width: 70%;
+  height:50rem;
+  background-color:#f8f8f8;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
 }
  .About-services12{
   width: 100%;

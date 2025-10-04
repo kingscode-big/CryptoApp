@@ -197,8 +197,10 @@
  @media (max-width: 768px) {
 .login-container{
     display: block;
-    width: 100%;
+    width:100%;
     height: 100%;
+    overflow-x: auto;
+    
 }
  .logins-container-container {
     width: 100%;
