@@ -11,7 +11,7 @@ import Footer from './Footer'
 export default function Contact() {
   return (
     <>
-   <section>
+   <section  className='contacts-container-container'>
       <div className='contacts-container'>
         <div className='contact-descrip'>
            <div className='contact-us'>

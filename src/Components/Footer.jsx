@@ -1,4 +1,6 @@
 import React from 'react'
+import frame52 from  '../images/Frame 52.png'
+ 
 
 export default function Footer() {
   return (
@@ -24,7 +26,10 @@ export default function Footer() {
                       prices, instant UPI deposits and withdrawals, and bank-level <br></br>
                       security, we make crypto trading simple and accessible for everyone.<br></br>
                     </p>
-                    <p></p>
+                    <p>
+                      <img src={frame52} alt='facebookicon' />
+                       
+                    </p>
                   
                    
                 </div>

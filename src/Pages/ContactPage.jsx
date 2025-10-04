@@ -8,7 +8,7 @@ export default function ContactPage() {
         <div className='HomePage-header-container'>
           <Header/>
         </div>
-        <div>
+        <div className='containers-contacts-containe'>
             <Contact />
         </div>
            
