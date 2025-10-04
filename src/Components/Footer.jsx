@@ -8,9 +8,12 @@ export default function Footer() {
         <div className='footer-container'>
           <div className='footer-start'>
             <h3>Ready to Start Trading Crypto?</h3>
+              <p className='tracking'>Join thousands of traders buying and 
+                selling cryptocurrencies on India's most trusted platform
+            </p>
           </div>
            <div className='footer-start-des'>
-             <p>Join thousands of traders buying and selling cryptocurrencies on India's most trusted platform</p>
+            
           </div>
           <div className="footer-start-button">
             <button className='trade-start-button'>Buy Crypto Now</button>
@@ -26,10 +29,10 @@ export default function Footer() {
                       prices, instant UPI deposits and withdrawals, and bank-level <br></br>
                       security, we make crypto trading simple and accessible for everyone.<br></br>
                     </p>
-                    <p>
-                      <img src={frame52} alt='facebookicon' />
+                    <div style={{display:'flex',marginLeft:'23px',marginTop:'10PX'}}>
+                      <p><img src={frame52} alt='facebookicon' /></p> 
                        
-                    </p>
+                    </div>
                   
                    
                 </div>

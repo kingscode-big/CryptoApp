@@ -32,7 +32,6 @@ export default function Hero2() {
   return (
      <>
       <section className='container2'>
-
         <div className='frames'>
             <div style={{display:'flex'}}>
                 <img src={Frame1} alt='circle' className='immg1'/>
@@ -181,10 +180,12 @@ export default function Hero2() {
        </div>
        <div className='explore-service'>
         <h2>Explore Services & Crypto,Wallet</h2>
+          <p className='tracking'>We Bring Together Dynamic Mix Of Services & Crypto
+            That Are Thoughtfully  Designed To Make Your Crypto Exchange Easier.
+          </p>
        </div>
        <div className='services-details'>
-        <p>We Bring Together Dynamic Mix Of Services & Crypto
-           Wallet That Are Thoughtfully <br></br><br></br>Designed To Make Your Crypto Exchange Easier.</p>
+ 
        </div>
  
        <div className='services-flex-container'>
@@ -221,9 +222,12 @@ export default function Hero2() {
        </div>
        <div className='explore-service'>
         <h2>Live Crypto Markets</h2>
+        <p className='tracking'> Track real-time cryptocurrency 
+          prices and buy or sell with just a few clicks
+        </p>
        </div>
        <div className='services-details'>
-        <p> Track real-time cryptocurrency prices and buy or sell with just a few clicks</p>
+         
        </div>
        <div className='services-flex-container01'>
         <div className='services-services2'>
@@ -281,13 +285,14 @@ export default function Hero2() {
      
        <section className='traders-container-container'>
         <div className='traders-container'>
-          <h5>Don't just take our word for it</h5>
-        </div>
-        <p className='services-details5'>
+          <h5 className=''>Don't just take our word for it</h5>
+              <p className='tracking'>
           We Bring Together Dynamic Mix Of Services & Crypto
            Wallet That Are Thoughtfully Designed To Make Your Crypto Exchange Easier.
         </p>
 
+        </div>
+     
         <div className='services-services12'>
           <div className='services-details22'>
           
@@ -313,12 +318,13 @@ export default function Hero2() {
       <section className='traders-container-container2'> 
         <div className='traders-container'>
             <h3>Frequently Asked Questions</h3>
+               <p className='tracking'>
+                A List Of Question and Answers Related To
+                A Specific Topic , Product, Services
+                & Commom Customber Inquries.
+              </p>
           </div>
-          <p className='services-details5'>
-            A List Of Question and Answers Related To
-            A Specific Topic , Product, Services
-            & Commom Customber Inquries.
-          </p> 
+         
       <section className='Questions-container'>
         <div className='Question-FREQ'>
           <div className='FREQ'>

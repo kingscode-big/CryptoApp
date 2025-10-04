@@ -257,7 +257,6 @@
 .phone1{
   width: 50rem;
   height: 700px;
-  margin: 0px auto;
   
 }
 .frames{
@@ -1614,7 +1613,6 @@ height: 12px;
   
 }
 
-
 .crypto-wallet-container{
   background-color:#f8f8f8;
   width: 100%;
@@ -1850,11 +1848,7 @@ height: 12px;
 
 
  @media (max-width: 768px) {
-  *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+   
   .Header-section{
   background-color: var(--color-background);
   width: 95%;
@@ -1876,17 +1870,37 @@ height: 12px;
 
    
 }
+ .Hero-container {
+  display: flex;
+  width: 50%;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+  overflow: hidden;
+ 
+   
+ 
+ 
+    
+  
+
+}
  .Home-container{
-  width: fit-content;
+  width:100%;
   height: 837px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0)),
               url("Logos/Group.png");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
+  overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+   
+ 
  
 
  }
-  
 .bell-container{
   display: flex;
 }
@@ -1935,15 +1949,14 @@ height: 12px;
 .Buy2{
   font-family: 'Russo One', sans-serif;
   font-weight: 400;
-  font-size: 38px;
+  font-size: 30px;
   width: 100%;
   padding-top: 1rem;
   padding-bottom: 1.5rem;
   justify-content: center;
   align-items: center;
-  margin: 0px auto;
+  margin-left: 3rem;
   display: block;
-  text-align: center;
   
   
 }
@@ -1965,11 +1978,9 @@ height: 12px;
  }
  .Btn-now-container{
   display: flex;
-  
+  margin-top: 5rem;
   gap: 1.5rem;
   justify-content: center;
-  align-items: center;
-  margin: 50px auto;
 }
 .btn-buy-now{
   padding: 5px;
@@ -2005,8 +2016,8 @@ height: 12px;
 
  }
  .container2{
-  width: 100%;
-  height: 700px;
+  width: 50%;
+  height: 300px;
   background-color: #f8f8f8;
   display: none;
   justify-content: center;
@@ -2025,40 +2036,59 @@ height: 12px;
   border: none;
 }
 .phone1{
-  width: 30rem;
-  height: 300px;
+  width: 100%;
+  height: 266px;
   margin: 0px auto;
-  margin-left: 130px;
-  
-  
+  justify-content: center;
+  text-align: center;
+ background-color:#f8f8f8;
+
 }
 .text-sell{
   background-color: white;
   margin-bottom: 1rem;
-  padding: 0.8rem;
-  width: 500px;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 .frames{
-  width: 60%;
-  height: 40rem;
-  margin: 0px auto;
+  width: 100%;
+  height: fit-content;
+  margin-top: 0px;
+  margin-right: 3rem;
  
+  margin-bottom: 10rem;
+  /* background-color: #ebebeb; */
 }
  .CONTAINER{
-   
+  background-color: #f8f8f8;
   height: 250px;
   margin-top: 40rem;
-  margin-left: 35px;
-   
 }
 .Text-container{
-  width: 45%;
+  width: fit-content;
   height: 20rem;
   justify-content: space-around;
    margin: 0px auto;
    align-items: center;
+     background-color: #f8f8f8;
   
   
+}
+.explore-service{
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 2rem;
+ 
+  margin: 0 auto;
+  padding-top: 10px;  
+  font-size: 0.6rem;
+  font-weight: 200;
+  text-align: center;
+   
+ 
+  font-family: 'Russo One', sans-serif;
 }
  
 .CONTAINER{
@@ -2082,7 +2112,7 @@ height: 12px;
   background-color:#459d6e;
   align-items: center;
   margin-top: 2rem;
-  margin-left: 2.5rem;
+  margin-left: 2rem;
   border-radius: 0.3rem;
   text-align: start;
   color: #FFFFFF;
@@ -2100,7 +2130,7 @@ height: 12px;
    
 }
 .coins-img{
-  width: 18rem;
+  width: 12rem;
   height: 20rem;
 }
 .crypto-wallet-container{
@@ -2126,7 +2156,7 @@ height: 12px;
 }
 .services-flex-container{
   width: 100%;
-  height: 300px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   background-color: #f8f8f8;
@@ -2142,11 +2172,29 @@ height: 12px;
 }
 .services-flex-container01{
   width: 100%;
-  height: 1910px;
+  height: 1000px;
   margin: 0 auto;
   display: block;
   background-color: #f8f8f8;
 
+}
+.services-details{
+  width: 25rem;
+  height: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.4rem;
+  font-weight: 200;
+ font-family: poppins,sans-serif;
+  
+}
+.tracking{
+  text-align: center;
+  font-size: 0.5rem;
+  margin-top: 0px;
+  margin: 5px auto;
+  font-weight: 100;
+  opacity: 0.5;
 }
 .services-details2{
   width: 14.5rem;
@@ -2167,8 +2215,8 @@ height: 12px;
  
 }
 .services-details3{
-  width: 40rem;
-  height: 30rem;
+  width: 22rem;
+  height: 15rem;
   background-color: #FFFFFF;
   margin: 7px auto;
   border-radius: 0.3rem;
@@ -2177,8 +2225,8 @@ height: 12px;
  
 }
 .graph-image{
-  width: 35rem;
-  height: 400px;
+  width: 300px;
+  height: 180px;
 }
 .services-details4{
   width: 100%;
@@ -2210,20 +2258,19 @@ height: 12px;
   margin: 0 auto;
   padding: 1rem;
   background-color: #f8f8f8;
-   
  
 
 }
 .Rate-container{
-  width: 40rem;
-  height: 35rem;
+  width: 26.5rem;
+  height: 30rem;
   background-color: #1f9356;
   border-radius: 14px;
   display: block;
 }
 .sign-up-image{
   display: flex;
-  width: 20rem;
+  width: 15rem;
 }
 .traders-container-container{
   width: 100%;
@@ -2233,7 +2280,6 @@ height: 12px;
 
 
 }
-
 .traders-container{
  width: 100%;
  height: 100px ;
@@ -2242,7 +2288,7 @@ height: 12px;
  align-items: center;
  margin: 0 auto;
  text-align: center;
- font-size: 2rem;
+ font-size: 1rem;
  word-spacing: 0.2rem;
  padding-left: 1.5rem;
  font-family: 'Russo One', sans-serif;
@@ -2258,41 +2304,8 @@ height: 12px;
   margin: 0 auto;
  
 }
-.rate-p1{
-  padding-top: 4rem;
-  padding-left: 2rem;
-  font-family: 'Russo One', sans-serif;
-  font-size: 2rem;
-  width: 40rem;
-  color: #ffffff;
- 
-}
-.rate-p2{
-  padding-left: 2rem;
-  width: 18rem;
-  padding-top: 0.5rem;
-  font-size: 1rem;
-  line-height: 1.2rem;
-  color: #ffffff;
-  font-family: popins,sans-serif;
-  opacity: 0.8;
-}
-.Group30-img1{
-  width: 16rem;
-  height: 16rem;
-  margin-top: 4rem;
-  margin-left: 1.5rem;
-}
-.Group30-img2{
-  width: 16rem;
-  height: 16rem;
-  margin-left: 1.5rem;
-   
- 
-}
-
 .services-details22{
-  width: 30rem;
+  width: 23rem;
   height: 10rem;
   background-color: #FFFFFF;
   margin: 8px auto;
@@ -2326,7 +2339,7 @@ height: 12px;
   
 }
 .Question-FREQ{
-  width: 80%;
+  width: 100%;
   height: 200px;
   /* justify-content: center;
   align-items: center; */
@@ -2336,67 +2349,7 @@ height: 12px;
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: block;
-
-  }
-.vector-FAQ1{
-    padding-left: 22rem;
-    font-size: 1px;
-   
 }
- 
-.vector-FAQ2{
-    padding-left: 20rem;
-    font-size: 1px;
-   
-}
- 
-.vector-FAQ3{
-    padding-left: 19.5rem;
-    font-size: 1px;
-   
-}
- 
-.vector-FAQ4{
-    padding-left: 17.3rem;
-    font-size: 1px;
-   
-}
-.vector-FAQ5{
-    padding-left: 19rem;
-    
-   
-}
- 
-.vector-FAQ10{
-    padding-left: 22rem;
-    
-   
-}
- 
-.vector-FAQ21{
-    padding-left: 22rem;
-    
-   
-}
- 
-.vector-FAQ32{
-    padding-left: 18.2rem;
-      display: none;
-   
-}
- 
-.vector-FAQ43{
-    padding-left: 16.5rem;
-    display: none;
-    
-   
-}
-.vector-FAQ54{
-    padding-left: 19.5rem;
-    
-   
-}
-
 .FREQ{
   width: 100%;
   height: fit-content;
@@ -2404,7 +2357,7 @@ height: 12px;
   align-items: center;
 }
 .footer-content{
-width: fit-content;
+width: 100%;
 height: 560px; 
 margin: 0px auto;
 opacity: 0.9;
@@ -2422,12 +2375,26 @@ list-style: none;
   list-style: none;
   font-family: poppins,sans-serif;
 }
+.footer-start{
+ 
+  width: 100%;
+  height: 2rem;
+  margin: 0 auto;
+  margin-left: 25px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 0.8rem;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+}
 
 .footer-description{
-  margin-top: 10rem;
+  margin-top: 5rem;
   color: white;
-  line-height: 1.5rem;
+  line-height: 1rem;
   opacity: 0.5;
+  font-size: 0.78rem;
   padding:2rem;
 
 }
@@ -2436,10 +2403,10 @@ list-style: none;
   padding-left: 1rem;
 }
 .footer-terms{
-  width:96%;
+  width:80%;
   text-align: start;
-  padding-top: 1.5rem;
-  font-size: 1rem;
+  padding-top: 1.2rem;
+  font-size: 0.6rem;
   
   margin-left: 20px;
   line-height: 25px;
@@ -2453,7 +2420,7 @@ list-style: none;
 .footer-list-details{
   list-style: none;
   width: 7.5rem;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   padding-top: 6px;
  
 }
@@ -2463,7 +2430,7 @@ list-style: none;
 .Ft-Ft{
   display: flex;
   justify-content: space-around;
-  width: 35%;
+  width: 28%;
   margin-top:5rem;
   
  
@@ -2506,7 +2473,6 @@ list-style: none;
   color: white;
  
 }
- 
 .contactts-container{
   width: 100%;
   height:70rem;
