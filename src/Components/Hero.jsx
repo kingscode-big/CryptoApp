@@ -3,6 +3,7 @@ import React from 'react'
  import imagestack2 from '../images/imagestack2.jpg'
  import imagestack3 from '../images/imagestack3.jpg'
  import { FaStar } from "react-icons/fa";
+ import instant from '../images/Instantly.png'
 
 import vector from '../Logos/Vector.png'
 
@@ -15,7 +16,7 @@ export default function Hero() {
         <p><img src={vector} alt='vector' className='vector-icon' /></p>
         <p>India's Fastest Growing Crypto Trading Platform</p>
       </div>
-        <h1  className='Buy'> Buy & Sell Crypto Instantly</h1>
+        <h1  className='Buy'> Buy & Sell Crypto <img src={instant} alt='instantly' style={{fontSize:'0.5rem',padding:'10px',paddingLeft:'10px'}} /></h1>
         <h1  className='Buy2'> Buy & Sell Crypto </h1>
         <p  className='Text-description'> The Top Best Secure Exchanging   Platform For <br></br>Your
         Cryptocurrency Providing Services Globally For  Buying, Selling, Transferring, and Storing Your Digital Asset.</p>

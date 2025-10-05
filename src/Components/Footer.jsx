@@ -1,6 +1,11 @@
 import React from 'react'
 import frame52 from  '../images/Frame 52.png'
- 
+import twitericon from '../Logos/Frame 53 (2).png'
+import inicon from '../Logos/Frame 54.png'
+import vectorenvelop from '../Logos/Vector (24).png'
+import vectorphone  from '../Logos/Vector (25).png'
+import vectorlocation from '../Logos/Vector (26).png'
+import vectorline from '../images/Vector 7.png'
 
 export default function Footer() {
   return (
@@ -29,8 +34,10 @@ export default function Footer() {
                       prices, instant UPI deposits and withdrawals, and bank-level <br></br>
                       security, we make crypto trading simple and accessible for everyone.<br></br>
                     </p>
-                    <div style={{display:'flex',marginLeft:'23px',marginTop:'10PX'}}>
+                    <div   className='footer-social-icons'>
                       <p><img src={frame52} alt='facebookicon' /></p> 
+                      <p><img src={twitericon} alt='twiter' /></p> 
+                      <p><img src={inicon} alt='in' /></p> 
                        
                     </div>
                   
@@ -49,7 +56,7 @@ export default function Footer() {
                 <div className='footer-content-details'>
                     <ul>
                         <h3>Support</h3>
-                        <li className='footer-list-details'>Help Center</li>
+                        <li className='footer-list-details'>Help center</li>
                         <li className='footer-list-details'>Contact Us</li>
                         <li className='footer-list-details'>Security</li>
                         <li className='footer-list-details'>Privacy Policy</li>
@@ -59,9 +66,19 @@ export default function Footer() {
                 <div  >
                     <ul>
                         <h3>Contact</h3>
-                        <li className='footer-list-details'>support@cryptotrade.in</li>
-                        <li className='footer-list-details'>+91 80-0000-0000</li>
-                        <li className='footer-list-details'>Bangalore, India</li>
+                        <li className='footer-list-details'>
+                            <img src={vectorenvelop} alt='envelop' className='footer-contacts-icons' />
+                            <p>support@cryptotrade.in</p> 
+                          </li>
+                        <li className='footer-list-details'>
+                            <img src={vectorphone} alt='envelop' className='footer-contacts-icons' />
+                            <p> +91 80-0000-0000 </p> 
+                          
+                          </li>
+                        <li className='footer-list-details'>
+                            <img src={vectorlocation} alt='envelop' className='footer-contacts-icons' />
+                            <p> Bangalore, India </p> 
+                           </li>
                         
                     </ul>
                 </div>
@@ -81,8 +98,10 @@ export default function Footer() {
                         </p>
                   </div>
 
-                       <hr style={{marginRight:'150px',marginLeft:'150px',color:'green'}}></hr>   
-       
+                       <div style={{margin:'0px auto',width:'100%'}}>
+                         <img src={vectorline} alt='straightline' />
+                        </div>   
+                    <br></br><br></br>
                  
         </div>
         

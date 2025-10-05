@@ -45,7 +45,7 @@ export default function Header() {
         <div className='List-container'>
            
             <ul className='unordered-list'>
-                <li className='list-items' style={{color:'#27bf73'}}><Link to={'/'}className='Link-lists'>Home</Link></li>
+                <li className='list-items' style={{color:'#27bf73'}}><Link to={'/'}className='Link-lists'><span>Home</span></Link></li>
                 <li className='list-items'> <Link to={'/about'} className='Link-lists'>About</Link> </li>
                 <li className='list-items'><Link to={'/contact'}className='Link-lists' >Contact</Link></li>
                 <li className='list-items'><Link to={'/help'}className='Link-lists' >FAQ</Link></li>

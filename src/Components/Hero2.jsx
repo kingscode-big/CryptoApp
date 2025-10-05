@@ -20,6 +20,7 @@ import shoppingIcon from '../Logos/Vector (6).png'
 import shoppingIcon1 from '../Logos/Vector (8).png'
 import shoppingIcon2 from '../Logos/Frame 7.png'
 import Footer from './Footer'
+import frame33 from '../images/Frame 33.png'
 
 
 export default function Hero2() {
@@ -285,7 +286,7 @@ export default function Hero2() {
      
        <section className='traders-container-container'>
         <div className='traders-container'>
-          <h5 className=''>Don't just take our word for it</h5>
+          <h5 className='traders-contaiber-texts'>Don't just take our word for it</h5>
               <p className='tracking'>
           We Bring Together Dynamic Mix Of Services & Crypto
            Wallet That Are Thoughtfully Designed To Make Your Crypto Exchange Easier.
@@ -295,29 +296,34 @@ export default function Hero2() {
      
         <div className='services-services12'>
           <div className='services-details22'>
-          
+           <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+           <br></br>
           <div className='services-details22'>
-            
+              <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+          <br></br>
 
           <div className='services-details22'>
-            
+              <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+           <br></br>
           <div className='services-details22'>
-            
+              <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+           <br></br>
           <div className='services-details22'>
-            
+              <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+           <br></br>
           <div className='services-details22'>
-            
+              <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
         </div>
        </section>
       <section className='traders-container-container2'> 
         <div className='traders-container'>
-            <h3>Frequently Asked Questions</h3>
+            <h3 className='traders-container-texts'>Frequently Asked Questions</h3>
                <p className='tracking'>
                 A List Of Question and Answers Related To
                 A Specific Topic , Product, Services
