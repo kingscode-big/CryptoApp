@@ -4283,6 +4283,37 @@ list-style: none;
   flex-wrap: wrap;
 }
 }
+@media screen and (min-width:768px)and (max-width:912px){
+  .services-flex-container01{
+  width: auto;
+  height: auto;
+  margin: 7rem auto;
+  margin-right: 3rem;
+  display: flex;
+  background-color: #f8f8f8;
+}
+.services-details3{
+  width: 10rem;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  border-radius: 0.3rem;
+  flex-wrap: wrap;
+  
+}
+.services-services2{
+  width: 93%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 23px auto;
+  margin-right: 5px;
+ 
+}
+}
  
 @media screen and (min-width: 800px) and  (max-width:1356px){
    .services-flex-container{
