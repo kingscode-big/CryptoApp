@@ -251,14 +251,7 @@ export default function Hero2() {
          
        </div>
 
-       <motion.section
-        className='services-flex-container01'
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeInOut" }}
-        viewport={{ once: false, amount: 0.5 }}
-
-      >
+     
       <div className='services-flex-container01'>
         <div className='services-services2'>
           <div className='services-details3'>
@@ -282,7 +275,7 @@ export default function Hero2() {
         </div>
        </div >
 
-      </motion.section>
+     
         
        <div className='services-details4'>
           <div className='button-container-container'>
