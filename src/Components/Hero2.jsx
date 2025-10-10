@@ -21,6 +21,9 @@ import shoppingIcon1 from '../Logos/Vector (8).png'
 import shoppingIcon2 from '../Logos/Frame 7.png'
 import Footer from './Footer'
 import frame33 from '../images/Frame 33.png'
+import { motion } from "framer-motion";
+
+import Testimonial from './Testimonial'
 
 
 export default function Hero2() {
@@ -32,64 +35,56 @@ export default function Hero2() {
   ]
   return (
      <>
-      <section className='container2'>
-        <div className='frames'>
-            <div style={{display:'flex'}}>
-                <img src={Frame1} alt='circle' className='immg1'/>
-                <img src={vector2} alt='vector' className='vector2' />
-            </div> 
-            <div style={{display:'flex'}}>
-                <img src={Frame2} alt='sguare' className='imgg2'/>
-                <img src={vector2} alt='vector' className='vector3' />
-            </div> 
-            <div style={{display:'flex'}}>
-                <img src={Frame3} alt='rectangle' className='imgg3'/>
-                <img src={vector2} alt='vector' className='vector4' />
+       {/* -------- CONTAINER 2 -------- */}
+      <motion.section
+        className='container2'
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 2, y: 0 }}
+        transition={{ duration: 1,Infinity:1, ease: "easeOut" }}
+       viewport={{ once: false, amount: 0.5 }}
 
-            </div> 
-            <div style={{display:'flex'}}>
-                <img src={Frame4} alt='cicle'className='imgg4'/>
-                <img src={vector2} alt='vector' className='vector5' />
-            </div> 
-            <div style={{display:'flex'}}>
-                <img src={Frame5} alt='circle' className='imgg5'/>
-                 <img src={vector2} alt='vector' className='vector4' />
-            </div> 
+      >
+        <div className='frames'>
+          <div style={{ display: 'flex' }}>
+            <img src={Frame1} alt='circle' className='immg1' />
+            <img src={vector2} alt='vector' className='vector2' />
+          </div>
+          <div style={{ display: 'flex' }}>
+            <img src={Frame2} alt='square' className='imgg2' />
+            <img src={vector2} alt='vector' className='vector3' />
+          </div>
+          <div style={{ display: 'flex' }}>
+            <img src={Frame3} alt='rectangle' className='imgg3' />
+            <img src={vector2} alt='vector' className='vector4' />
+          </div>
+          <div style={{ display: 'flex' }}>
+            <img src={Frame4} alt='circle' className='imgg4' />
+            <img src={vector2} alt='vector' className='vector5' />
+          </div>
+          <div style={{ display: 'flex' }}>
+            <img src={Frame5} alt='circle' className='imgg5' />
+            <img src={vector2} alt='vector' className='vector4' />
+          </div>
         </div>
-        
-        <div>
-            <img src={phone1} alt='phone image' className='phone1' />
-        </div>
-        
+
+        <motion.div
+          className='phone1-container'
+          initial={{ scale: 0.9, y: 20 }}
+          animate={{ scale: 1, y: [0, -10, 0] }}
+          transition={{ duration: 1, repeat: 2, ease: "easeInOut" }}
+          viewport={{ once: false, amount: 0.5 }}
+        >
+          <img src={phone1} alt='phone image' className='phone1' />
+        </motion.div>
+
         <div className='Text-container'>
-           <div className='text-sell'>
-             <p>Sold 100 USDT for <span>₹8,200</span> <br></br>
-               ₹8,200 has been received in your wallet
-             </p>
-           </div>
-           <div className='text-sell'>
-              <p>Sold 100 USDT for <span>₹8,200</span><br></br>
-               ₹8,200 has been received in your wallet
-             </p>
-           </div>
-           <div  className='text-sell'>
-              <p>Sold 100 USDT for <span>₹8,200</span><br></br>
-               ₹8,200 has been received in your wallet
-             </p>
-           </div>
-           <div  className='text-sell'>
-              <p>Sold 100 USDT for <span>₹8,200</span><br></br>
-               ₹8,200 has been received in your wallet
-             </p>
-           </div>
-           <div  className='text-sell'>
-              <p>Sold 100 USDT for <span>₹8,200</span><br></br>
-               ₹8,200 has been received in your wallet
-             </p>
-           </div>
+          {[...Array(5)].map((_, i) => (
+            <div className='text-sell' key={i}>
+              <p>Sold 100 USDT for <span>₹8,200</span><br />₹8,200 has been received in your wallet</p>
+            </div>
+          ))}
         </div>
-         
-   </section>
+      </motion.section>
       <section className='container3'>
          <div className='phone-img'>
             <img src={phone1} alt='phone image' className='phone1' />
@@ -146,34 +141,48 @@ export default function Hero2() {
         </div>
          
    </section>
-   <section  className='CONTAINER'> 
+     <motion.section
+        className='CONTAINER'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
         <div className='Grid-container'>
           <div className='Gride-contents'>
-          <div className='grids'>
-            <p>10K +</p>
-            <p className='grids-p'>Active Users</p>
+            <div className='grids'>
+              <p>10K +</p>
+              <p className='grids-p'>Active Users</p>
             </div>
-          <div className='grids'>
-             <p>₹50Cr+</p>
-            <p className='grids-p'>Trading Volume</p>
-          </div> 
-          <div className='grids'>
-             <p>700+</p>
-            <p className='grids-p'>Crypto Coins</p>
+            <div className='grids'>
+              <p>₹50Cr+</p>
+              <p className='grids-p'>Trading Volume</p>
+            </div>
+            <div className='grids'>
+              <p>700+</p>
+              <p className='grids-p'>Crypto Coins</p>
+            </div>
+            <div className='grids'>
+              <p>1.3B+</p>
+              <p className='grids-p'>Cash Out</p>
+            </div>
           </div>
-          <div className='grids'>
-             <p>1.3B+</p>
-            <p className='grids-p'>Cash Out</p>
-          </div>
-   
-        </div>
 
-        <div className='coins'>
-           <img src={coins} alt='coins' className='coins-img' />
+          <motion.div
+            className='coins'
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.3, ease: "easeOut" }}
+            viewport={{ once: false, amount: 0.5 }}
+
+          >
+            <img src={coins} alt='coins' className='coins-img' />
+          </motion.div>
         </div>
-        </div>
-     </section>
+      </motion.section>
     
+ 
      <section className='crypto-wallet-container'>
        <div className='Crypto-wallet'>
         <img src={vector5} alt='vector5' className='vector5-image' />
@@ -188,7 +197,16 @@ export default function Hero2() {
        <div className='services-details'>
  
        </div>
- 
+       
+      <motion.section
+        className='services-flex-container'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
+      
        <div className='services-flex-container'>
         <div className='services-services'>
           <div className='services-details2'>
@@ -217,6 +235,8 @@ export default function Hero2() {
        </div>
 
 
+      </motion.section>
+      
        <div className='Crypto-wallet2'>
         <img src={vector9} alt='vector5' className='vector9-image' />
         <p> Live Crypto Pricings and Charts</p>
@@ -230,7 +250,16 @@ export default function Hero2() {
        <div className='services-details'>
          
        </div>
-       <div className='services-flex-container01'>
+
+       <motion.section
+        className='services-flex-containe01r'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
+      <div className='services-flex-container01'>
         <div className='services-services2'>
           <div className='services-details3'>
             <img src={Frame16} alt='shopping-icon' className='graph-image'/>
@@ -252,6 +281,9 @@ export default function Hero2() {
           
         </div>
        </div >
+
+      </motion.section>
+        
        <div className='services-details4'>
           <div className='button-container-container'>
             <button  className='start-button'>Start Crypto Deposit Now<img src={vector10} alt='vector10' 
@@ -260,6 +292,15 @@ export default function Hero2() {
           </div>
        </div>
 
+
+      <motion.section
+        className='Rate-container-container'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
        <section className='Rate-container-container'>
         <div className='Rate-container'>
           <div className='rate-divs'>
@@ -283,8 +324,20 @@ export default function Hero2() {
           </div>
         </div>
        </section>
+        
+      </motion.section>
+       
      
-       <section className='traders-container-container'>
+       
+       <motion.section
+        className='traders-container-container'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
+        <section className='traders-container-container'>
         <div className='traders-container'>
           <h5 className='traders-contaiber-texts'>Don't just take our word for it</h5>
               <p className='tracking'>
@@ -321,6 +374,9 @@ export default function Hero2() {
           </div>
         </div>
        </section>
+
+      </motion.section>
+   
       <section className='traders-container-container2'> 
         <div className='traders-container'>
             <h3 className='traders-container-texts'>Frequently Asked Questions</h3>

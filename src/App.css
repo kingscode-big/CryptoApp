@@ -1768,6 +1768,44 @@ height: 12px;
   font-size: 0.9rem;
   font-family: 'Russo One', sans-serif;
 }
+.services-details22 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.services-details22 img:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.Link-lists {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+/* Hover color per page */
+.list-items:nth-child(1):hover .Link-lists {
+  color: #2ecc71; /* Home - green */
+}
+
+.list-items:nth-child(2):hover .Link-lists {
+   color: #2ecc71;
+}
+
+.list-items:nth-child(3):hover .Link-lists {
+   color: #2ecc71;
+}
+
+.list-items:nth-child(4):hover .Link-lists {
+   color: #2ecc71;
+}
+
+ 
+
 
  @media (max-width: 400px) {
  
@@ -2259,7 +2297,7 @@ height: 12px;
   width: 100%;
   height:auto;
   background-color: #f8f8f8;
-  display: none;
+  display: block;
   justify-content: center;
   align-items: center;
   outline: none;
