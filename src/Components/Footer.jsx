@@ -13,7 +13,7 @@ export default function Footer() {
         <div className='footer-container'>
           <div className='footer-start'>
             <h3>Ready to Start Trading Crypto?</h3>
-              <p className='tracking'>Join thousands of traders buying and 
+              <p className='footer-tracking'>Join thousands of traders buying and 
                 selling cryptocurrencies on India's most trusted platform
             </p>
           </div>

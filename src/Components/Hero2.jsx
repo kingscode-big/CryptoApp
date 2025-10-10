@@ -219,9 +219,9 @@ export default function Hero2() {
 
        <div className='Crypto-wallet2'>
         <img src={vector9} alt='vector5' className='vector9-image' />
-        <p > Live Crypto Pricings and Charts</p>
+        <p> Live Crypto Pricings and Charts</p>
        </div>
-       <div className='explore-service'>
+       <div className='explore-service2'>
         <h2>Live Crypto Markets</h2>
         <p className='tracking'> Track real-time cryptocurrency 
           prices and buy or sell with just a few clicks
@@ -255,7 +255,7 @@ export default function Hero2() {
        <div className='services-details4'>
           <div className='button-container-container'>
             <button  className='start-button'>Start Crypto Deposit Now<img src={vector10} alt='vector10' 
-            style={{width:'8px',height:'7px',paddingLeft:'3px',paddingTop:'2px'}}   /></button>
+            style={{width:'10px',height:'7px',paddingTop:'2px',marginLeft:'10px'}}   /></button>
             <p className='join-p'>Join thousands of traders • Get started with just ₹100</p>
           </div>
        </div>
@@ -324,7 +324,7 @@ export default function Hero2() {
       <section className='traders-container-container2'> 
         <div className='traders-container'>
             <h3 className='traders-container-texts'>Frequently Asked Questions</h3>
-               <p className='tracking'>
+               <p className='questions-tracking'>
                 A List Of Question and Answers Related To
                 A Specific Topic , Product, Services
                 & Commom Customber Inquries.
