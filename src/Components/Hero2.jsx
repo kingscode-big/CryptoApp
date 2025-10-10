@@ -252,7 +252,7 @@ export default function Hero2() {
        </div>
 
        <motion.section
-        className='services-flex-containe01r'
+        className='services-flex-container01'
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2, ease: "easeInOut" }}
@@ -292,15 +292,7 @@ export default function Hero2() {
           </div>
        </div>
 
-
-      <motion.section
-        className='Rate-container-container'
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeInOut" }}
-        viewport={{ once: false, amount: 0.5 }}
-
-      >
+ 
        <section className='Rate-container-container'>
         <div className='Rate-container'>
           <div className='rate-divs'>
@@ -324,20 +316,14 @@ export default function Hero2() {
           </div>
         </div>
        </section>
-        
-      </motion.section>
+    
        
      
        
-       <motion.section
-        className='traders-container-container'
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1.2, ease: "easeInOut" }}
-        viewport={{ once: false, amount: 0.5 }}
+       
+       
 
-      >
-        <section className='traders-container-container'>
+           <section className='traders-container-container'>
         <div className='traders-container'>
           <h5 className='traders-contaiber-texts'>Don't just take our word for it</h5>
               <p className='tracking'>
@@ -348,34 +334,103 @@ export default function Hero2() {
         </div>
      
         <div className='services-services12'>
+           <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+      >
           <div className='services-details22'>
+            
            <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
+      </motion.section>
+        
            <br></br>
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
-          <br></br>
 
+      <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+        >
           <div className='services-details22'>
               <img src={frame33} alt='textimonials ' className='services-details22' />
           </div>
-           <br></br>
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
-           <br></br>
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
-           <br></br>
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
-        </div>
-       </section>
 
       </motion.section>
+         
+          <br></br>
+         <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+        >
+           <div className='services-details22'>
+              <img src={frame33} alt='textimonials ' className='services-details22' />
+          </div>
+        </motion.section>
+        
+           <br></br>
+
+        <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+        >
+
+          <div className='services-details22'>
+              <img src={frame33} alt='textimonials ' className='services-details22' />
+          </div>
+        </motion.section>
+           
+           <br></br>
+
+        <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+        >
+        <div className='services-details22'>
+              <img src={frame33} alt='textimonials ' className='services-details22' />
+          </div>
+
+        </motion.section>
+           
+           <br></br>
+
+           <motion.section
+        className='services-details22'
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1.2, ease: "easeInOut" }}
+        viewport={{ once: false, amount: 0.5 }}
+
+        >
+           <div className='services-details22'>
+              <img src={frame33} alt='textimonials ' className='services-details22' />
+          </div>
+        </motion.section>
+        
+        </div>
+       </section>
+      
+      
+
+      
    
       <section className='traders-container-container2'> 
         <div className='traders-container'>
