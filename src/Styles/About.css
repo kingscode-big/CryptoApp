@@ -1,0 +1,24 @@
+.features-list{
+    width: 100%;
+    height: 70%;
+   
+    margin: 0px auto;
+}
+.mission-section{
+    width: 50%;
+    height: auto;
+
+}
+.features-lists-lists{
+    
+    width: 60%;
+    height: 23%;
+    background-color: green;
+    color: white;
+    font-family: poppins, sans-serif;
+    padding-top: 1.2rem;
+    padding-left: 0.6rem;
+    border-radius: 0.2rem;
+    margin-top: 10px;
+    font-size: 0.7rem;
+}

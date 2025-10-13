@@ -13,6 +13,7 @@ import frame715 from '../Logos/Frame 7 (15).png'
 import frame716 from '../Logos/Frame 7 (16).png'
 import Group38 from '../images/Group 38.png'
 import Footer from './Footer'
+import '../Styles/About.css'
 
 
 export default function About() {
@@ -192,8 +193,14 @@ export default function About() {
                     </p>
                 </div>
               
-                <div className='mission-image1'>
-                 <img src={Group38} alt='coins-images' className='mission-image-processing' />
+                <div className='mission-section'>
+                 <div className='features-list'>
+                  <div className='features-lists-lists'>instant processing </div>
+                  <div className='features-lists-lists'>Without P2P risk</div>
+                  <div className='features-lists-lists'> Use local payment method</div>
+                  <div className='features-lists-lists'> Support 24x7</div>
+                  <div className='features-lists-lists'>Best exchange Rates</div>
+                 </div>
                 </div>
                 
             </div>

@@ -20,6 +20,7 @@ import shoppingIcon from '../Logos/Vector (6).png'
 import shoppingIcon1 from '../Logos/Vector (8).png'
 import shoppingIcon2 from '../Logos/Frame 7.png'
 import Footer from './Footer'
+ 
 import frame33 from '../images/Frame 33.png'
 import { motion } from "framer-motion";
 
@@ -250,8 +251,7 @@ export default function Hero2() {
        <div className='services-details'>
          
        </div>
-
-     
+ 
       <div className='services-flex-container01'>
         <div className='services-services2'>
           <div className='services-details3'>
@@ -274,8 +274,7 @@ export default function Hero2() {
           
         </div>
        </div >
-
-     
+ 
         
        <div className='services-details4'>
           <div className='button-container-container'>
@@ -335,10 +334,9 @@ export default function Hero2() {
         viewport={{ once: false, amount: 0.5 }}
 
       >
-          <div className='services-details22'>
-            
-           <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+           
+             <Testimonial />
+             
       </motion.section>
         
            <br></br>
@@ -351,9 +349,7 @@ export default function Hero2() {
         viewport={{ once: false, amount: 0.5 }}
 
         >
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+            <Testimonial />
 
       </motion.section>
          
@@ -366,9 +362,7 @@ export default function Hero2() {
         viewport={{ once: false, amount: 0.5 }}
 
         >
-           <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+             <Testimonial />
         </motion.section>
         
            <br></br>
@@ -382,9 +376,7 @@ export default function Hero2() {
 
         >
 
-          <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+            <Testimonial />
         </motion.section>
            
            <br></br>
@@ -397,9 +389,7 @@ export default function Hero2() {
         viewport={{ once: false, amount: 0.5 }}
 
         >
-        <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+          <Testimonial />
 
         </motion.section>
            
@@ -413,9 +403,7 @@ export default function Hero2() {
         viewport={{ once: false, amount: 0.5 }}
 
         >
-           <div className='services-details22'>
-              <img src={frame33} alt='textimonials ' className='services-details22' />
-          </div>
+            <Testimonial />
         </motion.section>
         
         </div>

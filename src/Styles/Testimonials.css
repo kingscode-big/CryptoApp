@@ -4,14 +4,22 @@
   justify-content: center;
   gap: 1.5rem;
   padding: 2rem;
+  height: auto;
   background-color: #f8f8f8;
+  margin-bottom: 9rem;
 }
 
 .testimonial-card {
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
-  width: 260px;
+  width: 14.5rem;
+  height: fit-content;
+   
+  margin: 0 auto;
+  border-radius: 0.3rem;
+ 
+
   padding: 1.2rem;
   display: flex;
   flex-direction: column;
@@ -21,13 +29,15 @@
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 6px 12px rgba(8, 7, 7, 0.12);
 }
 
 .testimonial-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 210px;
+  
 }
 
 .user-avatar {
@@ -39,12 +49,13 @@
 
 .user-name {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.6rem;
+  width: fit-content;
   margin: 0;
 }
 
 .user-handle {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   color: gray;
   margin-top: 2px;
 }
@@ -58,13 +69,15 @@
 }
 
 .testimonial-text {
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   color: #333;
   margin: 1rem 0;
   line-height: 1.4;
+  font-family: poppins,sans-serif;
 }
 
 .rating {
   display: flex;
   gap: 4px;
+  
 }

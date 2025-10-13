@@ -8,6 +8,7 @@ import vector16 from '../Logos/Vector (16).png'
 import vector17 from '../Logos/Vector (17).png'
 import vector18 from '../Logos/Vector (18).png'
 import Footer from './Footer'
+ 
 export default function Contact() {
   return (
     <>
@@ -157,7 +158,7 @@ export default function Contact() {
 
             </div>
           </div>
-          
+          <br></br><br /><br /><br /><br />
           <Footer />
           
        

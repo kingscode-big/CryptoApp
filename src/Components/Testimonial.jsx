@@ -12,22 +12,7 @@ export default function Testimonial() {
       rating: 4,
       image: "https://via.placeholder.com/40", 
     },
-    {
-      id: 2,
-      name: "Michael Lee",
-      username: "@mikecrypto",
-      text: `"Fantastic UI and seamless transactions. Customer support is also very responsive!"`,
-      rating: 5,
-      image: "https://via.placeholder.com/40",
-    },
-    {
-      id: 3,
-      name: "Aisha Patel",
-      username: "@aishap",
-      text: `"Super easy to use and the rates are great. Highly recommend to anyone trading crypto regularly."`,
-      rating: 4,
-      image: "https://via.placeholder.com/40",
-    },
+ 
   ];
 
   return (
@@ -35,11 +20,13 @@ export default function Testimonial() {
       {testimonials.map((t) => (
         <div className="testimonial-card" key={t.id}>
           <div className="testimonial-header">
-            <img src={t.image} alt={t.name} className="user-avatar" />
             <div>
-              <p className="user-name">{t.name}</p>
-              <p className="user-handle">{t.username}</p>
-            </div>
+             </div>
+               <p className="user-name">{t.name}
+                 <p className="user-handle">{t.username}</p>
+               </p>
+              <div>
+            </div>  
             <button className="close-btn">×</button>
           </div>
           <p className="testimonial-text">{t.text}</p>
@@ -47,7 +34,7 @@ export default function Testimonial() {
             {[...Array(5)].map((_, i) => (
               <Star
                 key={i}
-                size={18}
+                size={10}
                 color={i < t.rating ? "#f5a623" : "#ddd"}
                 fill={i < t.rating ? "#f5a623" : "none"}
               />
