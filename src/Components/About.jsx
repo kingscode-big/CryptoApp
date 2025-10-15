@@ -13,6 +13,7 @@ import frame715 from '../Logos/Frame 7 (15).png'
 import frame716 from '../Logos/Frame 7 (16).png'
 import Group38 from '../images/Group 38.png'
 import Footer from './Footer'
+import vector27 from '../Logos/Vector (27).png'
 import '../Styles/About.css'
 
 
@@ -195,11 +196,11 @@ export default function About() {
               
                 <div className='mission-section'>
                  <div className='features-list'>
-                  <div className='features-lists-lists'>instant processing </div>
-                  <div className='features-lists-lists'>Without P2P risk</div>
-                  <div className='features-lists-lists'> Use local payment method</div>
-                  <div className='features-lists-lists'> Support 24x7</div>
-                  <div className='features-lists-lists'>Best exchange Rates</div>
+                  <div className='features-lists-lists'> <img src={vector27} alt='marking-icon' className='marking-com' />  Instant processing </div>
+                  <div className='features-lists-lists'><img src={vector27} alt='marking-icon' className='marking-com' />Without P2P risk</div>
+                  <div className='features-lists-lists'><img src={vector27} alt='marking-icon' className='marking-com' /> Use local payment method</div>
+                  <div className='features-lists-lists'><img src={vector27} alt='marking-icon' className='marking-com' /> Support 24x7</div>
+                  <div className='features-lists-lists'><img src={vector27} alt='marking-icon' className='marking-com' />Best exchange Rates</div>
                  </div>
                 </div>
                 

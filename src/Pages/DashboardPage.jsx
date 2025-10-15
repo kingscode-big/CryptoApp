@@ -2,16 +2,18 @@ import React from 'react'
 import Header2 from '../Components/Header2'
 import About from '../Components/About'
 import BottomNav from '../Components/BottomNav'
+import DashboardHeader from '../Components/DashboardHeader'
+import Dashboard from '../Components/Dashboard'
 
 export default function AboutPage() {
   return (
    <>
     <section className='contact-container'>
-            <div className='HomePage-header-container '>
-                <Header2 />
+            <div className='DashboardPage-header-container '>
+                <DashboardHeader />
               </div>
             <div>
-                <About />
+                <Dashboard />
             </div>
                
             

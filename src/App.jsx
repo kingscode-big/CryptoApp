@@ -9,7 +9,7 @@ import HelpPage from './Pages/HelpPage';
 import Layout from './Components/Layout';
 import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
- 
+import DashboardPage from './Pages/DashboardPage'
 
 function App() {
  
@@ -25,9 +25,11 @@ function App() {
         <Route path='/help' element={<HelpPage/>} />
         <Route path='/login' element={<LoginPage/>} />
         <Route path='/register' element={<RegisterPage/>} />
+        <Route path='/dashboard' element={<DashboardPage />} />
       </Routes>
 
       </Layout>
+ 
      
     </BrowserRouter>
    

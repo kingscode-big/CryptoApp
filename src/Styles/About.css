@@ -7,18 +7,30 @@
 .mission-section{
     width: 50%;
     height: auto;
+    margin: 0px auto;
 
+}
+.misssion-state{
+    margin: 0px auto;
+    margin-left: 50px;
 }
 .features-lists-lists{
     
     width: 60%;
     height: 23%;
-    background-color: green;
+    display: flex;
+    background-color: #2b8a58;
     color: white;
     font-family: poppins, sans-serif;
     padding-top: 1.2rem;
     padding-left: 0.6rem;
     border-radius: 0.2rem;
     margin-top: 10px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+}
+.marking-com{
+    width: 13px;
+    height: 13px;
+    margin-top: 1px;
+    margin-right: 6px;
 }

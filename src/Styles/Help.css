@@ -1,0 +1,371 @@
+.help-container{
+  width: 100%;
+  height:100%;
+  background-color:#f8f8f8;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.help-descrip{
+  background-color: white;
+  width: 70%;
+  height: 230px;
+  align-items: center;
+   
+  
+
+}.help-us{
+  width: 100%;
+  height:10px;
+ justify-content: center;
+ margin: 30px auto;
+ align-items: center;
+ text-align: center;
+}
+.help-support2{
+  font-size: 0.4rem;
+  padding-bottom: 3px;
+  font-family: poppins,sans-serif;
+  font-weight: bold;
+  padding-left: 6rem;
+}
+.help-texts{
+  width: 35rem;
+  height: 2rem;
+ 
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+ font-family: poppins,sans-serif;
+  
+}
+.Hero-contact-us-header2{
+  font-family:'Russo One', sans-serif ;
+  font-size: 3rem;
+  text-align: center;
+  align-items: center;
+  margin: 0px auto;
+  padding-left:6rem;
+  width: 100%;
+
+}
+.Help-serch{
+    width: 40%;
+     padding: 0.4rem;
+    padding-top: 0.6rem;
+    
+     font-size: 0.5rem;
+     margin: 12px auto;
+     border: none;
+     outline: none;
+     background-color: #f0f0f0;
+     border-radius: 4px;
+     margin-left: 50px;
+      
+}
+::placeholder{
+    font-size: 0.6rem;
+    color: #a3a3a3;
+}
+.help-contacts{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 1rem;
+  font-family: 'Russo One', sans-serif;
+}
+.explore-help{
+  justify-content: center;
+  align-items: center;
+  width: 65rem;
+  height: 1rem;
+  margin: 0 auto;
+  font-weight: 100;
+  text-align: center;
+ 
+  font-size: 0.9rem;
+  font-family: 'Russo One', sans-serif;
+}
+.services-details22 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.services-details22 img:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.Link-lists {
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+/* Hover color per page */
+.list-items:nth-child(1):hover .Link-lists {
+  color: #2ecc71; /* Home - green */
+}
+
+.list-items:nth-child(2):hover .Link-lists {
+   color: #2ecc71;
+}
+
+.list-items:nth-child(3):hover .Link-lists {
+   color: #2ecc71;
+}
+
+.list-items:nth-child(4):hover .Link-lists {
+   color: #2ecc71;
+}
+.help-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 400px;
+  margin: 0px auto;
+}
+.help-texts{
+  width: 50rem;
+  height: 10rem;
+ 
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0.4rem;
+ align-items: center;
+ justify-content: center;
+  font-weight: 200;
+ 
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+  min-width: auto;
+ font-family: poppins,sans-serif;
+  
+}
+.contact-us{
+  width:auto;
+  height:10px;
+ justify-content: center;
+ margin: 30px auto;
+ align-items: center;
+ text-align: center;
+}
+.Hero-contact-us-header{
+  font-family:'Russo One', sans-serif ;
+  font-size: 4rem;
+   line-height: 5rem;
+ 
+  text-align: center;
+  align-items: center;
+
+}
+ 
+ .help-services12{
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+ 
+}
+.help-details22{
+  width: 19rem;
+ 
+  height:12rem;
+  background-color: #2b8a57;
+  margin: 40px auto;
+  border-radius: 0.3rem;
+ 
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+ 
+}
+.contacts-details{
+  width: 40rem;
+  height: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2.2rem;
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+ font-family: poppins,sans-serif;
+  
+}
+.help-icon{
+ 
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  margin-top: 10px;
+}
+.help-message-box{
+  width: 1.5rem;
+  height: 2.5rem;
+  padding-top: 0.5rem;
+  margin-top: 10px;
+}
+.help-div-texts-header{
+  font-size: 1rem;
+  padding-top: 0.6rem;
+  font-weight: bold;
+  font-family: poppins,sans-serif;
+  
+}
+.help-div-texts{
+  font-size: 0.5rem;
+  padding-top: 0.6rem;
+  opacity: 0.8;
+  font-family: poppins,sans-serif;
+  
+}
+.help-chat{
+  background-color:#ffffff;
+  color:black;
+  width: 7rem;
+  height: 1.3rem;
+  border: none;
+  margin-top: 0.6rem;
+  padding: 0.2rem 1.2rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-size: 0.4rem;
+  
+}
+.contacts-form{
+  width: 40%;
+  height:auto;
+ 
+  background-color: white;
+  border: 1px solid gainsboro;
+}
+.contails-form-details{
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  
+  
+}
+.contacts-form-container{
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 0px;
+  gap: 1rem;
+
+  
+}
+.form-details-header{
+text-align: center;
+align-items: center;
+font-size: 2rem;
+font-family: 'Russo One', sans-serif;
+padding-top: 2rem;
+padding-bottom: 2rem;
+ 
+}
+.message-input{
+  width: 300px;
+  height: 80px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+}
+.from-inputs-header{
+  width: 50%;
+  height:500px;
+  margin: 0px auto;
+  
+
+ 
+}
+.form-input{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 0.3rem; 
+  margin-bottom: 0.3rem;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 3px;
+  
+
+ 
+}
+.form-label{
+  padding-top: 5rem;
+  font-family: poppins,sans-serif;
+  font-size: 10px;
+}
+::placeholder{
+  font-size: 6px;
+  padding-left: 3px;
+}
+.form-contacts-detailing-container1{
+  display: flex;
+  width: 400px;
+  height: 80px;
+  line-height: 1.5rem;
+ 
+ 
+  flex-wrap: wrap;
+  margin: 1px auto;
+  justify-content: space-between;
+}
+.form-contacts-detailing-container{
+  display: flex;
+  width: 400px;
+  height: 100px;
+ 
+  flex-wrap: wrap;
+  margin: 30px auto;
+  justify-content: space-between;
+}
+.contact-emails-div{
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  font-size: 10px;
+  font-family: popins,sans-serif;
+  
+}
+.contact-numbers-div{
+  width: 400px;
+  height: 50px;
+  font-size: 10px;
+  margin-left: 10px;
+  font-family: popins,sans-serif;
+  display: block;
+}
+.contact-numbers-div2{
+  width: 400px;
+  height: 50px;
+  font-size: 10px;
+  margin-left: 10px;
+  font-family: popins,sans-serif;
+  display: flex;
+}
