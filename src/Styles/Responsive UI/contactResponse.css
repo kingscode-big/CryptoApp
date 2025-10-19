@@ -202,7 +202,7 @@
         font-size: 12px;
     }
 
-    .contact-usss{
+    .contact-usss {
         width: 300px !important;
         height: 190px;
         background-color: white;
@@ -218,21 +218,26 @@
         padding-top: 150px;
         padding-bottom: 40px;
     }
-    .contacts-form{
+
+    .contacts-form {
         height: 550px;
         margin-bottom: 50px;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         margin-bottom: 50px;
     }
-    .contact-icon1{
+
+    .contact-icon1 {
         padding-bottom: 10px;
         height: 200px !important;
     }
-    .contact-chat1{
+
+    .contact-chat1 {
         margin-bottom: 10px;
     }
-    .contacts-details22{
+
+    .contacts-details22 {
         height: 180px;
     }
 
@@ -251,7 +256,7 @@
         text-align: center;
         padding-top: 0px;
         margin-bottom: 10px !important;
-        ;
+
         font-family: 'Russo One', sans-serif;
     }
 
@@ -434,6 +439,7 @@
         display: flex !important;
         justify-content: center !important;
     }
+
     .Hero-contact-us-headerss {
         font-family: 'Russo One', sans-serif;
         font-size: 25px;
@@ -450,7 +456,7 @@
         font-size: 12px;
     }
 
-    .contact-usss{
+    .contact-usss {
         width: 320px !important;
         height: 200px;
         background-color: white;
@@ -466,12 +472,18 @@
         padding-top: 150px;
         padding-bottom: 40px;
     }
-    .contacts-form{
+
+    .contacts-form {
         height: 550px;
         margin-bottom: 50px;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         margin-bottom: 50px;
+    }
+
+    .contacts-details22 {
+        height: 180px;
     }
 
 
@@ -671,42 +683,7 @@
         display: flex !important;
         justify-content: center !important;
     }
-.Hero-contact-us-headerss {
-        font-family: 'Russo One', sans-serif;
-        font-size: 35px;
-    }
 
-    .contact-textsss {
-        font-family: poppins, sans-serif;
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    .help-supportss {
-        font-family: poppins, sans-serif;
-        font-size: 12px;
-    }
-
-    .contact-usss{
-        width: 400px !important;
-        height: 190px;
-        background-color: white;
-        text-align: center;
-        padding-top: 30px;
-        border-radius: 8px;
-
-    }
-
-    .contact-descripss {
-        display: flex;
-        justify-content: center;
-        padding-top: 150px;
-        padding-bottom: 40px;
-    }
-    .contacts-form{
-        height: 550px;
-        margin-bottom: 50px;
-    }
     .Hero-contact-us-headerss {
         font-family: 'Russo One', sans-serif;
         font-size: 35px;
@@ -723,7 +700,45 @@
         font-size: 12px;
     }
 
-    .contact-usss{
+    .contact-usss {
+        width: 400px !important;
+        height: 190px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+
+    .contacts-form {
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
+    .Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 35px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss {
         width: 450px !important;
         height: 200px;
         background-color: white;
@@ -739,12 +754,18 @@
         padding-top: 150px;
         padding-bottom: 40px;
     }
-    .contacts-form{
+
+    .contacts-form {
         height: 550px;
         margin-bottom: 50px;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         margin-bottom: 50px;
+    }
+
+    .contacts-details22 {
+        height: 180px;
     }
 
 
@@ -948,6 +969,7 @@
         display: flex !important;
         justify-content: center !important;
     }
+
     .Hero-contact-us-headerss {
         font-family: 'Russo One', sans-serif;
         font-size: 45px;
@@ -964,7 +986,7 @@
         font-size: 12px;
     }
 
-    .contact-usss{
+    .contact-usss {
         width: 500px !important;
         height: 200px;
         background-color: white;
@@ -980,12 +1002,18 @@
         padding-top: 150px;
         padding-bottom: 40px;
     }
-    .contacts-form{
+
+    .contacts-form {
         height: 550px;
         margin-bottom: 50px;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         margin-bottom: 50px;
+    }
+
+    .contacts-details22 {
+        height: 180px;
     }
 
 
