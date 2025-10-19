@@ -1,21 +1,24 @@
-.features-list{
+.features-list {
     width: 100%;
     height: 70%;
-   
+
     margin: 0px auto;
 }
-.mission-section{
+
+.mission-section {
     width: 50%;
     height: auto;
     margin: 0px auto;
 
 }
-.misssion-state{
+
+.misssion-state {
     margin: 0px auto;
     margin-left: 50px;
 }
-.features-lists-lists{
-    
+
+.features-lists-lists {
+
     width: 60%;
     height: 23%;
     display: flex;
@@ -28,7 +31,337 @@
     margin-top: 10px;
     font-size: 0.8rem;
 }
-.marking-com{
+
+.marking-com {
+    width: 13px;
+    height: 13px;
+    margin-top: 1px;
+    margin-right: 6px;
+}
+
+.About-container {
+    width: 70%;
+    height: 50rem;
+    background-color: #f8f8f8;
+}
+
+.about-descrip {
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+
+
+}
+
+.about-us {
+    width: 400px;
+    height: 10px;
+    justify-content: center;
+    margin: 30px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Hero-about-us-header {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+
+}
+
+.About-texts {
+    width: 35rem;
+    height: 2rem;
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0.4rem;
+    font-size: 0.6rem;
+    font-weight: 200;
+    padding-right: 8rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    font-family: poppins, sans-serif;
+
+}
+
+.help-support {
+    font-size: 0.5rem;
+    padding-bottom: 3px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+}
+
+.explore-about {
+    justify-content: center;
+    align-items: center;
+    width: 65rem;
+    height: 2rem;
+    margin: 0 auto;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Russo One', sans-serif;
+}
+
+.about-details {
+    width: 55rem;
+    height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.6rem;
+    font-weight: 200;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    font-family: poppins, sans-serif;
+
+
+}
+
+.About-services12 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    margin: 5rem auto;
+
+}
+
+.about-details22 {
+    width: 17rem;
+    height: 8rem;
+    background-color: #ffffff;
+    margin: 3px auto;
+    border-radius: 0.3rem;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.about-icon12 {
+    text-align: start;
+
+}
+
+.about--active-users {
+    color: black;
+    padding-left: 20px;
+    font-family: poppins, sans-serif;
+    font-size: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.about--active-users1 {
+    color: black;
+    padding-left: 20px;
+    font-family: poppins, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.about-people {
+    width: 3rem;
+    height: 3rem;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.mision-container {
+    width: 100%;
+    height: 900px;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.mision-container3 {
+    width: 100%;
+    height: 600px;
+    background-color: #f8f8f8;
+    margin: 2px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.our-mission-container {
+    margin: 0px auto;
+    width: 73%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-mission-container2 {
+    margin: 0px auto;
+    width: 75%;
+    height: 250px;
+    background-color: #1c8d51;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.our-core-value {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.2rem;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.mission-image {
+
+    width: 400px;
+    height: 400px;
+}
+
+.missions-state {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+
+}
+
+.mision-header {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+}
+
+.mission-statement {
+    font-size: 0.6rem;
+    margin-top: 2rem;
+    font-family: poppins, sans-serif;
+    line-height: 1.1rem;
+}
+
+.mission-image-coins {
+    width: 400px;
+    height: 300px;
+}
+
+.mission-image-processing {
+    width: 350px;
+    height: 350px;
+
+}
+
+.mission2-header {
+    font-size: 2.5rem;
+    font-family: 'Russo One', sans-serif;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    color: #ffffff;
+
+}
+
+.choosing-us {
+    display: flex;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-size: 0.5rem;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+.security {
+    padding-top: 3px;
+    padding-right: 3rem;
+}
+
+.vector19 {
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 13px;
+    height: 12px;
+}
+
+.About-services123 {
+    width: 78%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+
+}
+
+.about-details223 {
+    width: 16rem;
+    height: 10.6rem;
+    background-color: #ffffff;
+    margin: 3px auto;
+    border-radius: 0.3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.about-icon123 {
+    text-align: start;
+    line-height: 15px;
+
+}
+
+.about--active-users2 {
+    color: black;
+    padding-left: 20px;
+    font-family: poppins, sans-serif;
+    font-size: 0.5rem;
+    padding-top: 0.5rem;
+    padding: 1rem;
+
+}
+
+.features-list {
+    width: 100%;
+    height: 70%;
+    margin-left: 250px;
+
+}
+
+.mission-section {
+    width: 50%;
+    height: auto;
+
+
+}
+
+.misssion-state {
+    margin: 0px auto;
+    margin-left: 50px;
+}
+
+.features-lists-lists {
+
+    width: 60%;
+    height: 23%;
+    display: flex;
+    background-color: #2b8a58;
+    color: white;
+    font-family: poppins, sans-serif;
+    padding-top: 1.2rem;
+    padding-left: 0.6rem;
+    border-radius: 0.2rem;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+
+.marking-com {
     width: 13px;
     height: 13px;
     margin-top: 1px;
