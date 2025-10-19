@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.help-us {
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+.Help-contact-us-header2 {
+    font-size: 55px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.help-texts {
+    font-family: poppins, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.help-support2 {
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.Help-search {
+    width: 420px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #f0f0f0;
+    padding-left: 10px;
+}
+
+.Help-search::placeholder {
+    font-size: 12px;
+    padding-left: 0px;
+}
+
+.help-descrip {
+    display: flex;
+    justify-content: center;
+}
+
+.help-contacts {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    padding-top: 90px;
+    font-size: 25px;
+}
+
+.help-div-texts-header {
+    font-size: 17px;
+    padding-top: 7px;
+    font-weight: bold;
+    font-family: poppins, sans-serif;
+}
+
+.help-div-texts {
+    font-size: 11px;
+    padding-top: 15px;
+    opacity: 0.8;
+    font-family: poppins, sans-serif;
+}
+
+.help-chat {
+    background-color: #ffffff;
+    color: black;
+    width: 7rem;
+    height: 1.3rem;
+    border: none;
+    margin-top: 0.6rem;
+    padding: 0.2rem 1.2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.help-icon1 {
+    width: 19rem;
+
+    height: 12rem;
+    background-color: #2b8a57;
+
+    border-radius: 14px;
+
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+}
+
+.help-services12 {
+    grid-template-columns: repeat(3, auto);
+    gap: 40px;
+    display: grid;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+.myHelp {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cryptoHeader{
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+}
+.cryptoText{
+    font-family: poppins, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.cryptoButton button{
+   border: none;
+   background-color: transparent;
+   font-size: 11px;
+   font-family: poppins, sans-serif;
+    color: #2b8a57;
+}
+.cryptoButton{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 15px;
+}
+.cryptoTime{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+
+   padding-bottom: 20px;
+}
+.cryptoTime p{
+    font-size: 11px;
+    font-family: poppins, sans-serif;
+    color: gray;
+}
+.cryptoDiv{
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+.myCryptoDiv12{
+    display: flex;
+    justify-content: center;
+}
+.myCryptoDiv1{
+    grid-template-columns: repeat(2, auto);
+    gap: 40px;
+    display: grid;
+    max-width: fit-content;
+    justify-content: center;
+    margin-top: 30px;
+}
+.myContactHeader{
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.myContactText{
+    font-family: poppins, sans-serif;
+    font-size: 11px;
+    color: rgb(75, 74, 74);
+    padding-bottom: 8px;
+}
+.myContactDiv11{
+    display: flex;
+    gap: 10px;
+}
+.myImg{
+    margin-top: 20px;
+}
+.myContactDiv22{
+    grid-template-columns: repeat(3, auto);
+    gap: 50px;
+    display: grid;
+    max-width: fit-content;
+    
+    margin-top: 30px;
+}
+.myContactDiv33{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}

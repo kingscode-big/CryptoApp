@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import AdobeImage from '../images/Adobe Express - file (23) 1.png'
 import vector23 from '../Logos/Vector (23).png'
 import twitericon from '../Logos/Clip path group.png'
+import "../Styles/Responsive UI/loginResponse.css"
 export default function LoginPage() {
   return (
      <>

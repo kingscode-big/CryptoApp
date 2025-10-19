@@ -7,7 +7,7 @@ export default function HelpPage() {
   return (
      <>
       <section  className='contact-container'>
-        <div className='HomePage-header-container '>
+        <div style={{display: "flex", justifyContent: "center"}}>
                         <Header />
                     <div>
                         <Help />

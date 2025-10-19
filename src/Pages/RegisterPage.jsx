@@ -4,6 +4,7 @@ import rectangle401 from '../images/Rectangle 40 (1).png'
 import vector23 from '../Logos/Vector (23).png'
 import twitericon from '../Logos/Clip path group.png'
 import { Link } from 'react-router-dom'
+import "../Styles/Responsive UI/registerResponse.css"
 
 export default function RegisterPage() {
   return (

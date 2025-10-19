@@ -1,0 +1,735 @@
+@media (max-width: 400px) {
+    .explore-contacts h2 {
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 4rem;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 10px !important;
+       ;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .contacts-services12 {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-icon {
+
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contacts-details22 {
+        width: 16rem;
+        height: 9rem;
+        background-color: #2b8a57;
+        margin: 3px auto;
+        border-radius: 0.3rem;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .contails-form-details {
+        width: 300px;
+        height: 450px;
+        background-color: white;
+
+    }
+
+
+    .contacts-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 50%;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+    .contacts-details{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .contacts-detail p {
+        
+        text-align: center;
+        padding-top: 60px;
+       
+
+    }
+
+    .form-contacts-detailing-container {
+        display: flex;
+        width: 400px;
+        height: 100px;
+
+        flex-wrap: wrap;
+        margin: 30px auto;
+        justify-content: space-around;
+    }
+
+    .contact-descrip {
+        background-color: white;
+        width: 300px;
+        height: 270px;
+
+
+    }
+    .contacts-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-emails-div2 {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+        font-family: poppins, sans-serif;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .contactts-container {
+        display: none;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: 30rem;
+
+    }
+
+    .contact-us {
+        width: 200px;
+        height: 10px;
+        justify-content: center;
+        margin: 35px auto;
+        align-items: center;
+        padding-top: 0.5rem;
+        text-align: center;
+
+    }
+
+    .Hero-contact-us-header {
+        font-size: 35px !important;
+    }
+    .contact-texts{
+        margin-left: 0px !important;
+        font-size: 13px;
+       
+        width: 400px;
+    }
+    .contactName{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts-form-container{
+        display: block !important;
+    }
+    .contacts-form{
+        width: 330px !important;
+        margin-left: 0px !important;
+    }
+    .form-input{
+        width: 270px !important;
+    }
+    .from-inputs-header{
+        padding-left: 0px !important;
+        margin-left: 20px !important;
+    }
+    .form-details-header{
+        font-size: 25px !important;
+    }
+    .contails-form-details1{
+        padding-left: 20px !important;
+        margin-right: 20px !important;
+    }
+
+    
+    .containers-contacts-containe{
+        height:auto !important;
+    }
+    .myContact2{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+@media (min-width: 401px) and (max-width:470px) {
+    .explore-contacts h2 {
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 4rem;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 10px !important;
+       ;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .contacts-services12 {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-icon {
+
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contacts-details22 {
+        width: 16rem;
+        height: 9rem;
+        background-color: #2b8a57;
+        margin: 3px auto;
+        border-radius: 0.3rem;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .contails-form-details {
+        width: 300px;
+        height: 450px;
+        background-color: white;
+
+    }
+
+
+    .contacts-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 50%;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+    .contacts-details{
+        display: flex;
+        justify-content: center !important;
+        
+    }
+
+    .contacts-details p {
+        width: 24rem;
+        height: 2rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1px !important;
+        font-size: 0.6rem;
+        font-weight: 200;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+        font-family: poppins, sans-serif;
+        margin-left: 20px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+
+    .form-contacts-detailing-container {
+        display: flex;
+        width: 400px;
+        height: 100px;
+
+        flex-wrap: wrap;
+        margin: 30px auto;
+        justify-content: space-around;
+    }
+
+    .contact-descrip {
+        background-color: white;
+        width: 300px;
+        height: 270px;
+
+
+    }
+    .contacts-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-emails-div2 {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+        font-family: poppins, sans-serif;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .contactts-container {
+        display: none;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: 30rem;
+
+    }
+
+    .contact-us {
+        width: 200px;
+        height: 10px;
+        justify-content: center;
+        margin: 35px auto;
+        align-items: center;
+        padding-top: 0.5rem;
+        text-align: center;
+
+    }
+
+    .Hero-contact-us-header {
+        font-size: 35px !important;
+    }
+    .contact-texts{
+        margin-left: 0px !important;
+        font-size: 13px;
+       
+        width: 400px;
+    }
+    .contactName{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts-form-container{
+        display: block !important;
+    }
+    .contacts-form{
+        width: 360px !important;
+        margin-left: 0px !important;
+    }
+    .form-input{
+        width: 300px !important;
+    }
+    .from-inputs-header{
+        padding-left: 0px !important;
+        margin-left: 20px !important;
+    }
+    .form-details-header{
+        font-size: 25px !important;
+    }
+    .contails-form-details1{
+        padding-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .contacts-container-container{
+        height: auto;
+    }
+     
+    .myContact2{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+@media (min-width: 471px) and (max-width :700px) {
+    .explore-contacts h2 {
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 4rem;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 10px !important;
+       ;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .contacts-services12 {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-icon {
+
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contacts-details22 {
+        width: 16rem;
+        height: 9rem;
+        background-color: #2b8a57;
+        margin: 3px auto;
+        border-radius: 0.3rem;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .contails-form-details {
+        width: 300px;
+        height: 450px;
+        background-color: white;
+
+    }
+
+
+    .contacts-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 50%;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+    .contacts-details{
+        display: flex;
+        justify-content: center !important;
+        
+    }
+
+    .contacts-details p {
+        width: 24rem;
+        height: 2rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1px !important;
+        font-size: 0.6rem;
+        font-weight: 200;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+        font-family: poppins, sans-serif;
+        margin-left: 20px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+
+    .form-contacts-detailing-container {
+        display: flex;
+        width: 400px;
+        height: 100px;
+
+        flex-wrap: wrap;
+        margin: 30px auto;
+        justify-content: space-around;
+    }
+
+    .contact-descrip {
+        background-color: white;
+        width: 300px;
+        height: 270px;
+
+
+    }
+    .contacts-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-emails-div2 {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+        font-family: poppins, sans-serif;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .contactts-container {
+        display: none;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: 30rem;
+
+    }
+
+    .contact-us {
+        width: 200px;
+        height: 10px;
+        justify-content: center;
+        margin: 35px auto;
+        align-items: center;
+        padding-top: 0.5rem;
+        text-align: center;
+
+    }
+
+    .Hero-contact-us-header {
+        font-size: 35px !important;
+    }
+    .contact-texts{
+        margin-left: 0px !important;
+        font-size: 13px;
+       
+        width: 400px;
+    }
+    .contactName{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts-form-container{
+        display: block !important;
+    }
+    .contacts-form{
+        width: 400px !important;
+        margin-left: 0px !important;
+    }
+    .form-input{
+        width: 350px !important;
+    }
+    .from-inputs-header{
+        padding-left: 0px !important;
+        margin-left: 20px !important;
+    }
+    .form-details-header{
+        font-size: 25px !important;
+    }
+    .contails-form-details1{
+        padding-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    
+     
+    .myContact2{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+
+@media (min-width: 701px) and (max-width:1200px){
+     .explore-contacts h2 {
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 4rem;
+        margin: 0 auto;
+        font-size: 25px;
+        font-weight: 200;
+        text-align: center;
+        padding-top: 0px;
+        margin-bottom: 10px !important;
+       ;
+        font-family: 'Russo One', sans-serif;
+    }
+
+    .contacts-services12 {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-icon {
+
+        justify-content: center;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .contacts-details22 {
+        width: 16rem;
+        height: 9rem;
+        background-color: #2b8a57;
+        margin: 3px auto;
+        border-radius: 0.3rem;
+
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .contails-form-details {
+        width: 300px;
+        height: 450px;
+        background-color: white;
+
+    }
+
+
+    .contacts-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 50%;
+        padding-top: 2.5rem;
+        padding-bottom: 2rem;
+
+    }
+    .contacts-details{
+        display: flex;
+        justify-content: center !important;
+        
+    }
+
+    .contacts-details p {
+        width: 24rem;
+        height: 2rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1px !important;
+        font-size: 0.6rem;
+        font-weight: 200;
+        line-height: 1rem;
+        margin-bottom: 1rem;
+        font-family: poppins, sans-serif;
+        margin-left: 20px !important;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+    }
+
+    .form-contacts-detailing-container {
+        display: flex;
+        width: 400px;
+        height: 100px;
+
+        flex-wrap: wrap;
+        margin: 30px auto;
+        justify-content: space-around;
+    }
+
+    .contact-descrip {
+        background-color: white;
+        width: 300px;
+        height: 270px;
+
+
+    }
+    .contacts-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-emails-div2 {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+        font-family: poppins, sans-serif;
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .contactts-container {
+        display: none;
+    }
+
+    .contact-container {
+        width: 100%;
+        height: 30rem;
+
+    }
+
+    .contact-us {
+        width: 200px;
+        height: 10px;
+        justify-content: center;
+        margin: 35px auto;
+        align-items: center;
+        padding-top: 0.5rem;
+        text-align: center;
+
+    }
+
+    .Hero-contact-us-header {
+        font-size: 35px !important;
+    }
+    .contact-texts{
+        margin-left: 0px !important;
+        font-size: 13px;
+       
+        width: 400px;
+    }
+    .contactName{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts-form-container{
+        display: block !important;
+    }
+    .contacts-form{
+        width: 360px !important;
+        margin-left: 0px !important;
+    }
+    .form-input{
+        width: 300px !important;
+    }
+    .from-inputs-header{
+        padding-left: 0px !important;
+        margin-left: 20px !important;
+    }
+    .form-details-header{
+        font-size: 25px !important;
+    }
+    .contails-form-details1{
+        padding-left: 20px !important;
+        margin-right: 20px !important;
+    }
+    .contacts-container-container{
+        height: 100%;    
+         }
+    .myContact2{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}

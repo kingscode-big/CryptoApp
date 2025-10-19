@@ -1,0 +1,85 @@
+@media (max-width: 400px) {
+
+
+    .login-image {
+        width: 100%;
+    }
+
+    .logins-container-container {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .form-container-header {
+        width: 350px;
+        height: 550px;
+    }
+
+    .logins-container-container {
+        display: flex;
+    }
+
+    .signss-container {
+        width: 300px;
+    }
+
+    .sign-in-button {
+        width: 100px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .email-adress-input {
+
+        font-size: 14px;
+
+    }
+}
+
+@media (min-width: 401px) and (max-width:470px) {
+    .login-image {
+        width: 100%;
+    }
+
+    .logins-container-container {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+}
+
+@media (min-width: 471px) and (max-width :700px) {
+    .login-image {
+        width: 100%;
+    }
+
+    .logins-container-container {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+}
+@media (min-width: 701px) and (max-width:1200px){
+    .login-container{
+        display: block;
+    }
+     .login-image {
+        width: 100%;
+    }
+
+    .logins-container-container {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+}
+
+}
