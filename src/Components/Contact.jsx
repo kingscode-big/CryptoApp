@@ -9,6 +9,8 @@ import vector17 from '../Logos/Vector (17).png'
 import vector18 from '../Logos/Vector (18).png'
 import Footer from './Footer'
 import "../Styles/Responsive UI/contactResponse.css"
+import "../Styles/Responsive UI/helpResponse.css"
+
 
 export default function Contact() {
   return (
@@ -45,7 +47,7 @@ export default function Contact() {
               <p className='contact-div-texts-header'>Live Chat</p>
               <p className='contact-div-texts'>Get instant help from our support team</p>
               <p className='contact-div-texts'>24/7 Available</p>
-              <button className='contact-chat'>Start Chat</button>
+              <button className='help-chat'>Start Chat</button>
             </div>
 
           </div>
@@ -55,7 +57,7 @@ export default function Contact() {
               <p className='contact-div-texts-header'>Email Support</p>
               <p className='contact-div-texts'>Send us a detailed message</p>
               <p className='contact-div-texts'>Response within 2-4 hours</p>
-              <button className='contact-chat'>Send Email</button>
+              <button className='help-chat'>Send Email</button>
             </div>
 
           </div>
@@ -66,7 +68,7 @@ export default function Contact() {
               <p className='contact-div-texts-header'>Phone Support</p>
               <p className='contact-div-texts'>Speak directly with our experts</p>
               <p className='contact-div-texts'>Mon-Fri, 9AM-6PM IST</p>
-              <button className='contact-chat'>Call Now</button>
+              <button className='help-chat'>Call Now</button>
             </div>
 
 

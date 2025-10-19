@@ -225,6 +225,16 @@
     .contacts-form-container{
         margin-bottom: 50px;
     }
+    .contact-icon1{
+        padding-bottom: 10px;
+        height: 200px !important;
+    }
+    .contact-chat1{
+        margin-bottom: 10px;
+    }
+    .contacts-details22{
+        height: 180px;
+    }
 
 
 }
