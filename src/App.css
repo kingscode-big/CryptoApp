@@ -1480,6 +1480,34 @@
 
 
  }
+ .Hero-contact-us-headerss{
+  font-family: 'Russo One', sans-serif;
+   font-size: 4rem;
+ }
+ .contact-textsss{
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+ }
+ .help-supportss{
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+ }
+ .contact-usss{
+  width: 800px;
+   height: 190px;
+   background-color: white;
+   text-align: center;
+   padding-top: 30px;
+   border-radius: 8px;
+  
+ }
+ .contact-descripss{
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 40px;
+ }
 
  .form-details-header {
    text-align: center;

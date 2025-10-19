@@ -10,7 +10,7 @@
         text-align: center;
         padding-top: 0px;
         margin-bottom: 10px !important;
-       ;
+        ;
         font-family: 'Russo One', sans-serif;
     }
 
@@ -65,17 +65,18 @@
         padding-bottom: 2rem;
 
     }
-    .contacts-details{
+
+    .contacts-details {
         display: flex;
         justify-content: center;
-        
+
     }
 
     .contacts-detail p {
-        
+
         text-align: center;
         padding-top: 60px;
-       
+
 
     }
 
@@ -96,7 +97,8 @@
 
 
     }
-    .contacts-container{
+
+    .contacts-container {
         display: flex;
         justify-content: center;
     }
@@ -134,46 +136,96 @@
     .Hero-contact-us-header {
         font-size: 35px !important;
     }
-    .contact-texts{
+
+    .contact-texts {
         margin-left: 0px !important;
         font-size: 13px;
-       
+
         width: 400px;
     }
-    .contactName{
+
+    .contactName {
         display: flex;
         justify-content: center;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         display: block !important;
     }
-    .contacts-form{
+
+    .contacts-form {
         width: 330px !important;
         margin-left: 0px !important;
     }
-    .form-input{
+
+    .form-input {
         width: 270px !important;
     }
-    .from-inputs-header{
+
+    .from-inputs-header {
         padding-left: 0px !important;
         margin-left: 20px !important;
     }
-    .form-details-header{
+
+    .form-details-header {
         font-size: 25px !important;
     }
-    .contails-form-details1{
+
+    .contails-form-details1 {
         padding-left: 20px !important;
         margin-right: 20px !important;
     }
 
-    
-    .containers-contacts-containe{
-        height:auto !important;
+
+    .containers-contacts-containe {
+        height: auto !important;
     }
-    .myContact2{
+
+    .myContact2 {
         display: flex !important;
         justify-content: center !important;
     }
+
+    .Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 25px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss{
+        width: 300px !important;
+        height: 190px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .contacts-form{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .contacts-form-container{
+        margin-bottom: 50px;
+    }
+
 
 }
 
@@ -189,7 +241,7 @@
         text-align: center;
         padding-top: 0px;
         margin-bottom: 10px !important;
-       ;
+        ;
         font-family: 'Russo One', sans-serif;
     }
 
@@ -244,10 +296,11 @@
         padding-bottom: 2rem;
 
     }
-    .contacts-details{
+
+    .contacts-details {
         display: flex;
         justify-content: center !important;
-        
+
     }
 
     .contacts-details p {
@@ -264,7 +317,7 @@
         margin-left: 20px !important;
         padding-left: 10px;
         padding-right: 10px;
-       
+
     }
 
     .form-contacts-detailing-container {
@@ -284,7 +337,8 @@
 
 
     }
-    .contacts-container{
+
+    .contacts-container {
         display: flex;
         justify-content: center;
     }
@@ -322,47 +376,99 @@
     .Hero-contact-us-header {
         font-size: 35px !important;
     }
-    .contact-texts{
+
+    .contact-texts {
         margin-left: 0px !important;
         font-size: 13px;
-       
+
         width: 400px;
     }
-    .contactName{
+
+    .contactName {
         display: flex;
         justify-content: center;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         display: block !important;
     }
-    .contacts-form{
+
+    .contacts-form {
         width: 360px !important;
         margin-left: 0px !important;
     }
-    .form-input{
+
+    .form-input {
         width: 300px !important;
     }
-    .from-inputs-header{
+
+    .from-inputs-header {
         padding-left: 0px !important;
         margin-left: 20px !important;
     }
-    .form-details-header{
+
+    .form-details-header {
         font-size: 25px !important;
     }
-    .contails-form-details1{
+
+    .contails-form-details1 {
         padding-left: 20px !important;
         margin-right: 20px !important;
     }
-    .contacts-container-container{
+
+    .contacts-container-container {
         height: auto;
     }
-     
-    .myContact2{
+
+    .myContact2 {
         display: flex !important;
         justify-content: center !important;
     }
+    .Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 25px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss{
+        width: 320px !important;
+        height: 200px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .contacts-form{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .contacts-form-container{
+        margin-bottom: 50px;
+    }
+
 
 }
+
+
+
 @media (min-width: 471px) and (max-width :700px) {
     .explore-contacts h2 {
         justify-content: center;
@@ -375,7 +481,7 @@
         text-align: center;
         padding-top: 0px;
         margin-bottom: 10px !important;
-       ;
+        ;
         font-family: 'Russo One', sans-serif;
     }
 
@@ -430,10 +536,11 @@
         padding-bottom: 2rem;
 
     }
-    .contacts-details{
+
+    .contacts-details {
         display: flex;
         justify-content: center !important;
-        
+
     }
 
     .contacts-details p {
@@ -450,7 +557,7 @@
         margin-left: 20px !important;
         padding-left: 10px;
         padding-right: 10px;
-       
+
     }
 
     .form-contacts-detailing-container {
@@ -470,7 +577,8 @@
 
 
     }
-    .contacts-container{
+
+    .contacts-container {
         display: flex;
         justify-content: center;
     }
@@ -508,48 +616,135 @@
     .Hero-contact-us-header {
         font-size: 35px !important;
     }
-    .contact-texts{
+
+    .contact-texts {
         margin-left: 0px !important;
         font-size: 13px;
-       
+
         width: 400px;
     }
-    .contactName{
+
+    .contactName {
         display: flex;
         justify-content: center;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         display: block !important;
     }
-    .contacts-form{
+
+    .contacts-form {
         width: 400px !important;
         margin-left: 0px !important;
     }
-    .form-input{
+
+    .form-input {
         width: 350px !important;
     }
-    .from-inputs-header{
+
+    .from-inputs-header {
         padding-left: 0px !important;
         margin-left: 20px !important;
     }
-    .form-details-header{
+
+    .form-details-header {
         font-size: 25px !important;
     }
-    .contails-form-details1{
+
+    .contails-form-details1 {
         padding-left: 20px !important;
         margin-right: 20px !important;
     }
-    
-     
-    .myContact2{
+
+
+    .myContact2 {
         display: flex !important;
         justify-content: center !important;
     }
+.Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 35px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss{
+        width: 400px !important;
+        height: 190px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .contacts-form{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 35px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss{
+        width: 450px !important;
+        height: 200px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .contacts-form{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .contacts-form-container{
+        margin-bottom: 50px;
+    }
+
+
+
+
 
 }
 
-@media (min-width: 701px) and (max-width:1200px){
-     .explore-contacts h2 {
+@media (min-width: 701px) and (max-width:1200px) {
+    .explore-contacts h2 {
         justify-content: center;
         align-items: center;
         width: 20rem;
@@ -560,7 +755,7 @@
         text-align: center;
         padding-top: 0px;
         margin-bottom: 10px !important;
-       ;
+        ;
         font-family: 'Russo One', sans-serif;
     }
 
@@ -615,10 +810,11 @@
         padding-bottom: 2rem;
 
     }
-    .contacts-details{
+
+    .contacts-details {
         display: flex;
         justify-content: center !important;
-        
+
     }
 
     .contacts-details p {
@@ -635,7 +831,7 @@
         margin-left: 20px !important;
         padding-left: 10px;
         padding-right: 10px;
-       
+
     }
 
     .form-contacts-detailing-container {
@@ -655,7 +851,8 @@
 
 
     }
-    .contacts-container{
+
+    .contacts-container {
         display: flex;
         justify-content: center;
     }
@@ -693,43 +890,94 @@
     .Hero-contact-us-header {
         font-size: 35px !important;
     }
-    .contact-texts{
+
+    .contact-texts {
         margin-left: 0px !important;
         font-size: 13px;
-       
+
         width: 400px;
     }
-    .contactName{
+
+    .contactName {
         display: flex;
         justify-content: center;
     }
-    .contacts-form-container{
+
+    .contacts-form-container {
         display: block !important;
     }
-    .contacts-form{
+
+    .contacts-form {
         width: 360px !important;
         margin-left: 0px !important;
     }
-    .form-input{
+
+    .form-input {
         width: 300px !important;
     }
-    .from-inputs-header{
+
+    .from-inputs-header {
         padding-left: 0px !important;
         margin-left: 20px !important;
     }
-    .form-details-header{
+
+    .form-details-header {
         font-size: 25px !important;
     }
-    .contails-form-details1{
+
+    .contails-form-details1 {
         padding-left: 20px !important;
         margin-right: 20px !important;
     }
-    .contacts-container-container{
-        height: 100%;    
-         }
-    .myContact2{
+
+    .contacts-container-container {
+        height: 100%;
+    }
+
+    .myContact2 {
         display: flex !important;
         justify-content: center !important;
     }
+    .Hero-contact-us-headerss {
+        font-family: 'Russo One', sans-serif;
+        font-size: 45px;
+    }
+
+    .contact-textsss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .help-supportss {
+        font-family: poppins, sans-serif;
+        font-size: 12px;
+    }
+
+    .contact-usss{
+        width: 500px !important;
+        height: 200px;
+        background-color: white;
+        text-align: center;
+        padding-top: 30px;
+        border-radius: 8px;
+
+    }
+
+    .contact-descripss {
+        display: flex;
+        justify-content: center;
+        padding-top: 150px;
+        padding-bottom: 40px;
+    }
+    .contacts-form{
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .contacts-form-container{
+        margin-bottom: 50px;
+    }
+
+
 
 }

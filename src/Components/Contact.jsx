@@ -14,13 +14,13 @@ export default function Contact() {
   return (
     <>
       <section className='contacts-container-container'>
-        <div className='contacts-container'>
-          <div className='contact-descrip'>
-            <div className='contact-us'>
-              <p className='help-support' > Home /<span>help & support</span>  </p>
-              <h1 className='Hero-contact-us-header'>Contact Us</h1>
-              <div className='contactName'>
-                <p className='contact-texts'>Have questions about crypto trading? Need help with your
+        <div className='contacts-containerss'>
+          <div className='contact-descripss'>
+            <div className='contact-usss'>
+              <p className='help-supportss' > Home /<span>help & support</span>  </p>
+              <h1 className='Hero-contact-us-headerss'>Contact Us</h1>
+              <div className='contactNamess'>
+                <p className='contact-textsss'>Have questions about crypto trading? Need help with your
                   account? Our expert support<br></br> team is here to help you 24/7.
                 </p>
               </div>
