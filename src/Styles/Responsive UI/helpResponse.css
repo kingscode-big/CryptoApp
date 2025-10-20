@@ -1,6 +1,6 @@
 @media (max-width: 400px) {
     .help-us {
-        width: 300px;
+        width: 300px !important;
         height: 100%;
         background-color: white;
         align-items: center;
@@ -9,239 +9,239 @@
     }
 
     .Help-contact-us-header2 {
-        font-size: 30px;
-        ;
+        font-size: 30px !important;
+        
     }
 
     .help-texts {
         font-family: poppins, sans-serif;
-        font-size: 11px;
-        line-height: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 11px !important;
+        line-height: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 
     .Help-search {
-        width: 260px;
+        width: 260px !important;
 
     }
 
     .help-services12 {
 
-        display: block;
+        display: block !important;
 
 
     }
 
     .help-icon1 {
-        width: 18rem;
+        width: 18rem !important;
 
-        margin-top: 20px;
+        margin-top: 20px !important;
 
 
 
     }
 
     .cryptoDiv {
-        width: 300px;
-        padding-right: 20px;
-        margin-top: 30px;
+        width: 300px !important;
+        padding-right: 20px !important;
+        margin-top: 30px !important;
     }
 
     .myCryptoDiv12 {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
 
     .myCryptoDiv1 {
-        grid-template-columns: repeat(2, auto);
-        gap: 40px;
+        grid-template-columns: repeat(2, auto) !important;
+        gap: 40px !important;
         display: block !important;
-        max-width: fit-content;
-        justify-content: center;
-        margin-top: 30px;
+        max-width: fit-content !important;
+        justify-content: center !important;
+        margin-top: 30px !important;
     }
 
     .myContactDiv22 {
-        grid-template-columns: repeat(3, auto);
-        gap: 50px;
-        display: block;
-        max-width: fit-content;
+        grid-template-columns: repeat(3, auto) !important;
+        gap: 50px !important;
+        display: block !important;
+        max-width: fit-content !important;
 
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .myContactDiv11 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .help-contacts h2 {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 }
 
 @media (min-width: 401px) and (max-width:470px) {
     .help-us {
-        width: 300px;
-        height: 100%;
-        background-color: white;
-        align-items: center;
-        justify-content: center;
+        width: 300px !important;
+        height: 100% !important;
+        background-color: white !important;
+        align-items: center !important;
+        justify-content: center !important;
 
     }
 
     .Help-contact-us-header2 {
-        font-size: 30px;
-        ;
+        font-size: 30px !important;
+        
     }
 
     .help-texts {
         font-family: poppins, sans-serif;
-        font-size: 11px;
-        line-height: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 11px !important;
+        line-height: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
     }
 
     .Help-search {
-        width: 260px;
+        width: 260px !important;
 
     }
 
     .help-services12 {
 
-        display: block;
+        display: block !important;
 
 
     }
 
     .help-icon1 {
-        width: 18rem;
+        width: 18rem !important;
 
-        margin-top: 20px;
+        margin-top: 20px !important;
 
 
 
     }
 
     .cryptoDiv {
-        width: 300px;
-        padding-right: 20px;
-        margin-top: 30px;
+        width: 300px !important;
+        padding-right: 20px !important;
+        margin-top: 30px !important;
     }
 
     .myCryptoDiv12 {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center!important;
     }
 
     .myCryptoDiv1 {
-        grid-template-columns: repeat(2, auto);
-        gap: 40px;
+        grid-template-columns: repeat(2, auto) !important;
+        gap: 40px !important;
         display: block !important;
-        max-width: fit-content;
-        justify-content: center;
-        margin-top: 30px;
+        max-width: fit-content !important;
+        justify-content: center !important;
+        margin-top: 30px !important;
     }
 
     .myContactDiv22 {
-        grid-template-columns: repeat(3, auto);
-        gap: 50px;
-        display: block;
-        max-width: fit-content;
+        grid-template-columns: repeat(3, auto) !important;
+        gap: 50px !important;
+        display: block !important;
+        max-width: fit-content !important;
 
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .myContactDiv11 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .help-contacts h2 {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 
 }
 
 @media (min-width: 471px) and (max-width :700px) {
     .help-us {
-        width: 400px;
-        height: 100%;
-        background-color: white;
-        align-items: center;
-        justify-content: center;
+        width: 400px !important;
+        height: 100% !important;
+        background-color: white !important;
+        align-items: center !important;
+        justify-content: center !important;
 
     }
 
     .Help-contact-us-header2 {
-        font-size: 35px;
-        ;
+        font-size: 35px !important;
+        
     }
 
     .help-texts {
-        font-family: poppins, sans-serif;
-        font-size: 11px;
-        line-height: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-family: poppins, sans-serif !important;
+        font-size: 11px !important;
+        line-height: 20px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     .Help-search {
-        width: 350px;
+        width: 350px !important;
 
     }
 
     .help-services12 {
 
-        display: block;
+        display: block !important;
 
 
     }
 
     .help-icon1 {
-        width: 18rem;
+        width: 18rem !important;
 
-        margin-top: 20px;
+        margin-top: 20px !important;
 
 
 
     }
 
     .cryptoDiv {
-        width: 400px;
-        padding-right: 20px;
-        margin-top: 30px;
+        width: 400px !important;
+        padding-right: 20px !important;
+        margin-top: 30px !important;
     }
 
     .myCryptoDiv12 {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
 
     .myCryptoDiv1 {
-        grid-template-columns: repeat(2, auto);
-        gap: 40px;
+        grid-template-columns: repeat(2, auto) !important;
+        gap: 40px !important;
         display: block !important;
-        max-width: fit-content;
-        justify-content: center;
-        margin-top: 30px;
+        max-width: fit-content !important;
+        justify-content: center !important;
+        margin-top: 30px !important;
     }
 
     .myContactDiv22 {
-        grid-template-columns: repeat(3, auto);
-        gap: 50px;
-        display: block;
-        max-width: fit-content;
+        grid-template-columns: repeat(3, auto) !important;
+        gap: 50px !important;
+        display: block !important;
+        max-width: fit-content !important;
 
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .myContactDiv11 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .help-contacts h2 {
-        font-size: 25px;
+        font-size: 25px !important;
     }
 
 
@@ -249,95 +249,95 @@
 
 @media (min-width: 701px) and (max-width:1200px) {
     .help-us {
-        width: 530px;
-        height: 100%;
-        background-color: white;
-        align-items: center;
-        justify-content: center;
+        width: 530px !important;
+        height: 100% !important;
+        background-color: white !important;
+        align-items: center !important;
+        justify-content: center !important;
 
     }
 
     .Help-contact-us-header2 {
-        font-size: 45px;
-        ;
+        font-size: 45px !important;
+        
     }
 
     .help-texts {
         font-family: poppins, sans-serif;
-        font-size: 11px;
-        line-height: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-size: 11px !important;
+        line-height: 20px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
     }
 
     .Help-search {
-        width: 450px;
+        width: 450px !important;
 
     }
 
     .help-services12 {
 
-        display: block;
+        display: block !important;
 
 
     }
 
     .help-icon1 {
-        width: 18rem;
+        width: 18rem !important;
 
-        margin-top: 20px;
+        margin-top: 20px !important;
 
 
 
     }
 
     .cryptoDiv {
-        width: 420px;
-        padding-right: 20px;
-        margin-top: 30px;
+        width: 420px !important;
+        padding-right: 20px !important;
+        margin-top: 30px !important;
     }
 
     .myCryptoDiv12 {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
 
     .myCryptoDiv1 {
-        grid-template-columns: repeat(2, auto);
-        gap: 40px;
+        grid-template-columns: repeat(2, auto) !important;
+        gap: 40px !important;
         display: block !important;
-        max-width: fit-content;
-        justify-content: center;
-        margin-top: 30px;
+        max-width: fit-content !important;
+        justify-content: center !important;
+        margin-top: 30px !important;
     }
 
     .myContactDiv22 {
-        grid-template-columns: repeat(3, auto);
-        gap: 50px;
-        display: grid;
-        max-width: fit-content;
+        grid-template-columns: repeat(3, auto) !important;
+        gap: 50px !important;
+        display: grid !important;
+        max-width: fit-content !important;
 
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .myContactDiv11 {
-        margin-top: 30px;
+        margin-top: 30px !important;
     }
 
     .help-contacts h2 {
-        font-size: 25px;
+        font-size: 25px !important;
     }
     .help-icon1 {
-    width: 25rem;
+    width: 25rem !important;
 
     height: 12rem;
-    background-color: #2b8a57;
+    background-color: #2b8a57 !important;
 
-    border-radius: 14px;
+    border-radius: 14px !important;
 
-    text-align: center;
-    padding-top: 20px;
-    color: white;
+    text-align: center !important;
+    padding-top: 20px !important;
+    color: white !important;
 
 }
 
