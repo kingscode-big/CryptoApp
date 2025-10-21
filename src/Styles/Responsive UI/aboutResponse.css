@@ -25,27 +25,27 @@
     }
 
     .our-mission-container1 {
-        display: block;
-        gap: 80px;
+        display: block ;
+        gap: 80px!important;
         justify-content: center;
 
     }
 
     .features-lists-lists {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 300px;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        width: 300px !important;
     }
 
     .mission-section {
-        margin-left: 0px;
+        margin-left: 0px !important;
 
 
     }
 
     .myMission {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
 
     }
 
@@ -56,25 +56,25 @@
     }
 
     .myContact {
-        padding-top: 20px;
-        margin-left: 30px;
+        padding-top: 20px !important;
+        margin-left: 30px !important;
     }
 
     .explore-about {
-        margin-top: -200px;
+        margin-top: -200px !important;
     }
 
     .mision-header {
-        text-align: center;
-        padding-top: 20px;
+        text-align: center !important;
+        padding-top: 20px !important;
     }
 
     .straightline {
-        width: 200px;
+        width: 200px !important;
     }
 
     .about-details223 {
-        width: 300px;
+        width: 300px !important;
     }
 
     .contacts-container {
