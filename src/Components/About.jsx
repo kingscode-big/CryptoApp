@@ -42,57 +42,60 @@ export default function About() {
           crypto across all currencies Without the Risk of peer-to-peer ( P2P) trading.
         </p>
       </div>
-
-      <div className='About-services12'>
-        <div className='about-details22'>
-          <div className='about-icon12'>
-            <p><img src={frame79} alt='people' className='about-people' /></p>
-            <p className='about--active-users1'>500K+</p>
-            <p className='about--active-users'>Active Users</p>
-          </div>
-
-        </div>
-        <div className='about-details22'>
-          <div className='about-icon12'>
-            <p><img src={frame710} alt='people' className='about-people' /></p>
-            <p className='about--active-users1'>50+ </p>
-            <p className='about--active-users'>Countries Served</p>
+      <div className='myDetai'>
+        <div className='About-services'>
+          <div className='about-details22'>
+            <div className='about-icon12'>
+              <p><img src={frame79} alt='people' className='about-people' /></p>
+              <p className='about--active-users1'>500K+</p>
+              <p className='about--active-users'>Active Users</p>
+            </div>
 
           </div>
+          <div className='about-details22'>
+            <div className='about-icon12'>
+              <p><img src={frame710} alt='people' className='about-people' /></p>
+              <p className='about--active-users1'>50+ </p>
+              <p className='about--active-users'>Countries Served</p>
 
-        </div>
-
-        <div className='about-details22'>
-          <div className='about-icon12'>
-            <p><img src={frame711} alt='people' className='about-people' /></p>
-            <p className='about--active-users1'>$2B+</p>
-            <p className='about--active-users'>Trading Volume</p>
-          </div>
-
-
-        </div>
-        <div className='about-details22'>
-          <div className='about-icon12'>
-            <p><img src={frame12} alt='people' className='about-people' /></p>
-            <p className='about--active-users1'>5+</p>
-            <p className='about--active-users'>Years of Experience</p>
+            </div>
 
           </div>
 
+          <div className='about-details22'>
+            <div className='about-icon12'>
+              <p><img src={frame711} alt='people' className='about-people' /></p>
+              <p className='about--active-users1'>$2B+</p>
+              <p className='about--active-users'>Trading Volume</p>
+            </div>
 
+
+          </div>
+          <div className='about-details22'>
+            <div className='about-icon12'>
+              <p><img src={frame12} alt='people' className='about-people' /></p>
+              <p className='about--active-users1'>5+</p>
+              <p className='about--active-users'>Years of Experience</p>
+
+            </div>
+
+
+          </div>
+          <br></br><br></br><br></br><br></br>
         </div>
-        <br></br><br></br><br></br><br></br>
       </div>
+
+
       <div className='mision-container' >
         <div className='our-mission-container'>
-          <div className='missions-state'>
+          <div className='missions-statea'>
             <h3 className='mision-header'>Our Mission</h3>
             <p className='mission-statement'>To democratize access to cryptocurrency
-              trading by providing a secure, user-friendly platform that empowers both beginners and experienced
+              trading by providing a secure, user-friendly platform <br />that empowers both beginners and experienced
               traders to participate in the digital economy.
             </p>
             <p className='mission-statement'>We believe that everyone should have access to the transformative power
-              of cryptocurrencies, regardless of their
+              of cryptocurrencies,<br /> regardless of their
               technical background or investment experience.
             </p>
           </div>
@@ -127,7 +130,7 @@ export default function About() {
           </div>
           <br></br><br></br><br></br><br></br>
           <div className='explore-about2'>
-            <h2>Our Core Values</h2>
+            <h2 className='mision-header'>Our Core Values</h2>
           </div>
 
           <div className='About-services123'>
@@ -183,14 +186,14 @@ export default function About() {
       <br></br><br></br><br></br><br></br><br></br><br></br>
       <div className='mision-container1' >
         <div className='our-mission-container1'>
-          <div className='missions-state'>
+          <div className='missions-statea'>
             <h3 className='mision-header'>Features</h3>
             <p className='mission-statement'> To democratize access to cryptocurrency trading by providing a secure,
-              user-friendly platform that empowers both beginners
+              user-friendly platform <br />that empowers both beginners
               and experienced traders to participate in the digital economy.
             </p>
             <p className='mission-statement'>
-              We believe that everyone should have access to the transformative power of cryptocurrencies, regardless
+              We believe that everyone should have access to the transformative power of cryptocurrencies,<br /> regardless
               of their technical background or investment experience.
             </p>
           </div>
@@ -209,9 +212,9 @@ export default function About() {
 
         </div>
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-    
-          <Footer />
-        
+
+        <Footer />
+
 
       </div>
 

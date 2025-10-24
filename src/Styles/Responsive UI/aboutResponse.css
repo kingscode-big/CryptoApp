@@ -11,6 +11,86 @@
     width: 300px;
 }
 
+
+.about-icon12 {
+    width: 250px !important;
+    margin-left: 0px;
+}
+
+.About-services12 {
+    margin-left: 150px;
+
+}
+
+.mision-header {
+    padding-top: 60px;
+}
+
+.our-mission-container {
+    gap: 170px;
+}
+
+.our-mission-container2 {
+    width: 1060px;
+}
+
+.choosing-us {
+    width: 600px !important;
+}
+
+.about-details22 {
+    width: 250px;
+}
+
+.about-icon123 {
+    width: 250px;
+}
+
+.About-services123 {
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+
+}
+
+.missions-state {
+    width: 300px;
+}
+
+.About-services {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+    max-width: fit-content;
+    justify-content: center;
+    margin-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.myDetai {
+    display: flex;
+    justify-content: center;
+}
+
+.about-icon123 {
+    width: 250px;
+}
+
+.about-details223 {
+    width: 400px;
+}
+
+.mision-container1 {
+    gap: 300px !important;
+}
+
+.our-mission-container1 {
+    gap: 250px !important;
+}
+
 @media (max-width: 400px) {
     .HomePage-header-container {
         width: 400px !important;
@@ -25,8 +105,8 @@
     }
 
     .our-mission-container1 {
-        display: block ;
-        gap: 80px!important;
+        display: block;
+        gap: 80px !important;
         justify-content: center;
 
     }
@@ -88,19 +168,101 @@
 
     .about-details {
         padding-top: 90px;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 270px;
+    }
+
+    .myDetai {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-icon123 {
+        width: 250px;
+
+
+    }
+
+    .about-details223 {
+        width: 400px;
+        margin-top: 30px;
+
+    }
+
+    .mision-container1 {
+        gap: 300px !important;
+    }
+
+    .our-mission-container1 {
+        gap: 250px !important;
+    }
+
+    .About-services {
+        display: block;
+        grid-template-columns: repeat(5, auto);
+        gap: 20px;
+        max-width: fit-content;
+        justify-content: center;
+        margin-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .About-services {
+        display: block !important;
+    }
+
+    .about-details223 {
+        margin-top: 30px;
+    }
+
+    .myMission {
+        margin-top: 20px;
+    }
+
+    .our-mission-container2 {
+        width: 350px !important;
     }
 
 
 
 
-
+.our-mission-container{
+    display: block;
+}
+.mision-container{
+    display: block;
+}
+.mission-image-coins{
+    display: block;
+}
 
 }
 
 @media (min-width: 401px) and (max-width:470px) {
     .contacts-container {
 
-        width: 400px;
+        width: 430px;
         height: 420px;
 
     }
@@ -190,6 +352,114 @@
     .footer-start {
         margin: 0px;
     }
+
+    .about-icon12 {
+        width: 190px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 2px;
+
+    }
+
+    .about-details22 {
+        width: 310px !important;
+        margin-left: -20px;
+    }
+     .about-details {
+        padding-top: 90px;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 270px;
+    }
+
+    .myDetai {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-icon123 {
+        width: 250px;
+
+
+    }
+
+    .about-details223 {
+        width: 400px;
+        margin-top: 30px;
+
+    }
+
+    .mision-container1 {
+        gap: 300px !important;
+    }
+
+    .our-mission-container1 {
+        gap: 250px !important;
+    }
+
+    .About-services {
+        display: block;
+        grid-template-columns: repeat(5, auto);
+        gap: 20px;
+        max-width: fit-content;
+        justify-content: center;
+        margin-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .About-services {
+        display: block !important;
+    }
+
+    .about-details223 {
+        margin-top: 30px;
+        width: 320px;
+    }
+    .mission-image-coins{
+        width: 350px;
+    }
+    .mission-image{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+
+    .myMission {
+        margin-top: 20px;
+    }
+
+    .our-mission-container2 {
+        width: 370px !important;
+        height: 320px;
+    }
+
+
+
+
+
 
 
 }
@@ -197,7 +467,7 @@
 @media (min-width: 471px) and (max-width :700px) {
     .contacts-container {
 
-        width: 400px;
+        width: 540px;
         height: 420px;
 
     }
@@ -286,15 +556,138 @@
         justify-content: center;
 
     }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 370px;
+    }
+
+
+
+ .about-icon12 {
+        width: 190px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 2px;
+
+    }
+
+    .about-details22 {
+        width: 310px !important;
+        margin-left: -20px;
+    }
+     .about-details {
+        padding-top: 90px;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 270px;
+    }
+
+    .myDetai {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-icon123 {
+        width: 250px;
+
+
+    }
+
+    .about-details223 {
+        width: 400px;
+        margin-top: 30px;
+
+    }
+
+    .mision-container1 {
+        gap: 300px !important;
+    }
+
+    .our-mission-container1 {
+        gap: 250px !important;
+    }
+
+    .About-services {
+        display: block;
+        grid-template-columns: repeat(5, auto);
+        gap: 20px;
+        max-width: fit-content;
+        justify-content: center;
+        margin-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .About-services {
+        display: block !important;
+    }
+
+    .about-details223 {
+        margin-top: 30px;
+        width: 320px;
+    }
+    .mission-image-coins{
+        width: 350px;
+    }
+    .mission-image{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+
+    .myMission {
+        margin-top: 20px;
+    }
+
+    .our-mission-container2 {
+        width: 370px !important;
+        height: 320px;
+    }
+
+
+
+
 
 
 
 }
 
-@media (min-width: 701px) and (max-width:1200px) {
+@media (min-width: 701px) and (max-width:1000px) {
     .contacts-container {
 
-        width: 400px;
+        width: 630px;
         height: 420px;
 
     }
@@ -384,5 +777,346 @@
 
     }
 
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 600px;
+    }
+     .about-icon12 {
+        width: 190px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 2px;
+
+    }
+
+    .about-details22 {
+        width: 530px !important;
+        margin-left: -20px;
+    }
+     .about-details {
+        padding-top: 90px;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 270px;
+    }
+
+    .myDetai {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-icon123 {
+        width: 250px;
+
+
+    }
+
+    .about-details223 {
+        width: 400px;
+        margin-top: 30px;
+
+    }
+
+    .mision-container1 {
+        gap: 300px !important;
+    }
+
+    .our-mission-container1 {
+        gap: 250px !important;
+    }
+
+    .About-services {
+        display: block;
+        grid-template-columns: repeat(5, auto);
+        gap: 20px;
+        max-width: fit-content;
+        justify-content: center;
+        margin-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .About-services {
+        display: block !important;
+    }
+    .features-lists-lists{
+        width: 520px;
+    }
+
+    .about-details223 {
+        margin-top: 30px;
+        width: 520px;
+    }
+    .mission-image-coins{
+        width: 530px;
+    }
+    .mission-image{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+
+    .myMission {
+        margin-top: 20px;
+    }
+
+    .our-mission-container2 {
+        width: 490px !important;
+        height: 320px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1001px) and (max-width:1300px) {
+.contacts-container {
+
+        width: 630px;
+        height: 420px;
+
+    }
+
+    .about-descrip {
+        padding-top: 10px;
+        margin-left: 0px;
+
+    }
+
+    .myContact {
+        padding-top: 20px;
+        margin-left: 30px;
+    }
+
+    .explore-about {
+        margin-top: -200px;
+    }
+
+    .mision-header {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .straightline {
+        width: 200px;
+    }
+
+    .about-details223 {
+        width: 300px;
+    }
+
+    .contacts-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-welcome {
+        padding-top: 90px;
+    }
+
+    .about-details {
+        padding-top: 90px;
+    }
+
+    .footer-tracking {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin: 0px;
+    }
+
+    .footer-container-content {
+        padding-left: 20px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-start {
+        margin: 0px;
+    }
+
+    .features-lists-lists {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 300px;
+    }
+
+    .mission-section {
+        margin-left: 0px;
+
+
+    }
+
+    .myMission {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .our-mission-container1 {
+        display: block;
+        gap: 80px;
+        justify-content: center;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 600px;
+    }
+     .about-icon12 {
+        width: 190px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 2px;
+
+    }
+
+    .about-details22 {
+        width: 530px !important;
+        margin-left: -20px;
+    }
+     .about-details {
+        padding-top: 90px;
+
+    }
+
+    .about-icon12 {
+        width: 150px !important;
+        margin-left: 0px;
+    }
+
+    .About-services12 {
+        margin-left: 10px;
+
+    }
+
+    .about-details22 {
+        width: 270px;
+    }
+
+    .myDetai {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-icon123 {
+        width: 250px;
+
+
+    }
+
+    .about-details223 {
+        width: 400px;
+        margin-top: 30px;
+
+    }
+
+    .mision-container1 {
+        gap: 300px !important;
+    }
+
+    .our-mission-container1 {
+        gap: 250px !important;
+    }
+
+    .About-services {
+        display: block;
+        grid-template-columns: repeat(5, auto);
+        gap: 20px;
+        max-width: fit-content;
+        justify-content: center;
+        margin-left: 25px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .mission-statement {
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .About-services {
+        display: block !important;
+    }
+    .features-lists-lists{
+        width: 520px;
+    }
+
+    .about-details223 {
+        margin-top: 30px;
+        width: 520px;
+    }
+    .mission-image-coins{
+        width: 530px;
+    }
+    .mission-image{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+
+    .myMission {
+        margin-top: 20px;
+    }
+
+    .our-mission-container2 {
+        width: 490px !important;
+        height: 320px;
+    }
 
 }
