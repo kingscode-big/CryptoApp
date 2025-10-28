@@ -276,7 +276,7 @@
     }
 
     .Hero-about-us-header {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .Header-section {
@@ -493,6 +493,12 @@
     .Header-section {
         width: 350px !important;
         gap: 200px;
+    }
+    .about-descrip{
+        width: 320px;
+    }
+    .Hero-about-us-header{
+        font-size: 19px;
     }
 
 
