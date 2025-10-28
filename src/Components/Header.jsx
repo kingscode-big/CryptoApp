@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <>
-      <section className='Header-section'>
+      <section className='Header-section' style={{width: "1080px"}}>
         <div className='header-icons-container-harm'>
           <div className='Harmburger-icon'>
             <img

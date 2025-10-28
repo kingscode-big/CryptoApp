@@ -90,9 +90,22 @@
 .our-mission-container1 {
     gap: 250px !important;
 }
-.features-lists-lists{
+
+.features-lists-lists {
     width: 320px !important;
 }
+
+.Header-section {
+    width: 1200px !important;
+    gap: 200px;
+}
+
+.about-descrip {
+    width: 1200px;
+    justify-content: center;
+}
+
+
 
 @media (max-width: 400px) {
     .HomePage-header-container {
@@ -250,15 +263,26 @@
 
 
 
-.our-mission-container{
-    display: block;
-}
-.mision-container{
-    display: block;
-}
-.mission-image-coins{
-    display: block;
-}
+    .our-mission-container {
+        display: block;
+    }
+
+    .mision-container {
+        display: block;
+    }
+
+    .mission-image-coins {
+        display: block;
+    }
+
+    .Hero-about-us-header {
+        font-size: 19px;
+    }
+
+    .Header-section {
+        width: 310px !important;
+        gap: 170px;
+    }
 
 }
 
@@ -370,7 +394,8 @@
         width: 310px !important;
         margin-left: -20px;
     }
-     .about-details {
+
+    .about-details {
         padding-top: 90px;
 
     }
@@ -440,15 +465,17 @@
         margin-top: 30px;
         width: 320px;
     }
-    .mission-image-coins{
+
+    .mission-image-coins {
         width: 350px;
     }
-    .mission-image{
+
+    .mission-image {
         display: flex;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
 
     .myMission {
         margin-top: 20px;
@@ -458,6 +485,16 @@
         width: 370px !important;
         height: 320px;
     }
+
+    .Hero-about-us-header {
+        font-size: 22px;
+    }
+
+    .Header-section {
+        width: 350px !important;
+        gap: 200px;
+    }
+
 
 
 
@@ -477,7 +514,7 @@
 
     .about-descrip {
         padding-top: 10px;
-        margin-left: 0px;
+        margin-left: 0px !important;
 
     }
 
@@ -576,7 +613,7 @@
 
 
 
- .about-icon12 {
+    .about-icon12 {
         width: 190px !important;
         margin-left: 0px;
     }
@@ -590,7 +627,8 @@
         width: 310px !important;
         margin-left: -20px;
     }
-     .about-details {
+
+    .about-details {
         padding-top: 90px;
 
     }
@@ -660,15 +698,17 @@
         margin-top: 30px;
         width: 320px;
     }
-    .mission-image-coins{
+
+    .mission-image-coins {
         width: 350px;
     }
-    .mission-image{
+
+    .mission-image {
         display: flex;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
 
     .myMission {
         margin-top: 20px;
@@ -678,6 +718,27 @@
         width: 370px !important;
         height: 320px;
     }
+
+    .Hero-about-us-header {
+        font-size: 22px;
+    }
+
+    .Header-section {
+        width: 350px !important;
+        gap: 200px;
+    }
+
+    .about-descrip {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .contacts-container {
+        justify-content: center !important;
+        margin-left: -40px !important;
+    }
+
+
 
 
 
@@ -793,7 +854,8 @@
     .about-details22 {
         width: 600px;
     }
-     .about-icon12 {
+
+    .about-icon12 {
         width: 190px !important;
         margin-left: 0px;
     }
@@ -807,7 +869,8 @@
         width: 530px !important;
         margin-left: -20px;
     }
-     .about-details {
+
+    .about-details {
         padding-top: 90px;
 
     }
@@ -872,7 +935,8 @@
     .About-services {
         display: block !important;
     }
-    .features-lists-lists{
+
+    .features-lists-lists {
         width: 520px;
     }
 
@@ -880,15 +944,17 @@
         margin-top: 30px;
         width: 520px;
     }
-    .mission-image-coins{
+
+    .mission-image-coins {
         width: 530px;
     }
-    .mission-image{
+
+    .mission-image {
         display: flex;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
 
     .myMission {
         margin-top: 20px;
@@ -896,8 +962,20 @@
 
     .our-mission-container2 {
         width: 490px !important;
-        height: 320px;
+        height:
+            320px;
     }
+
+    .Hero-about-us-header {
+        font-size: 22px;
+    }
+
+    .Header-section {
+        width: 700px !important;
+        gap: 200px;
+    }
+
+
 
 
 
@@ -911,7 +989,7 @@
 }
 
 @media (min-width: 1001px) and (max-width:1300px) {
-.contacts-container {
+    .contacts-container {
 
         width: 630px;
         height: 420px;
@@ -1016,7 +1094,8 @@
     .about-details22 {
         width: 600px;
     }
-     .about-icon12 {
+
+    .about-icon12 {
         width: 190px !important;
         margin-left: 0px;
     }
@@ -1030,7 +1109,8 @@
         width: 530px !important;
         margin-left: -20px;
     }
-     .about-details {
+
+    .about-details {
         padding-top: 90px;
 
     }
@@ -1095,7 +1175,8 @@
     .About-services {
         display: block !important;
     }
-    .features-lists-lists{
+
+    .features-lists-lists {
         width: 520px;
     }
 
@@ -1103,15 +1184,17 @@
         margin-top: 30px;
         width: 520px;
     }
-    .mission-image-coins{
+
+    .mission-image-coins {
         width: 530px;
     }
-    .mission-image{
+
+    .mission-image {
         display: flex;
         justify-content: center;
         padding-top: 20px;
     }
-    
+
 
     .myMission {
         margin-top: 20px;
