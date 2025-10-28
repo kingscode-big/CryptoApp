@@ -10,6 +10,7 @@ import Layout from './Components/Layout';
 import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
 import DashboardPage from './Pages/DashboardPage'
+import ReferralPage from "./Pages/ReferralPage"
 
 function App() {
  
@@ -17,7 +18,7 @@ function App() {
   return (
     <>
         <BrowserRouter >
-      <Layout>
+      
        <Routes>
         <Route path='/' element={<HomePage/>} />
         <Route path='/contact' element={<ContactPage/>} />
@@ -26,9 +27,11 @@ function App() {
         <Route path='/login' element={<LoginPage/>} />
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/dashboard' element={<DashboardPage />} />
+        <Route path='/referral' element={<ReferralPage />} />
+        
       </Routes>
 
-      </Layout>
+      
  
      
     </BrowserRouter>

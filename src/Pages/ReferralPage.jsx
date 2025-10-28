@@ -2,18 +2,18 @@ import React from 'react'
 import Header2 from '../Components/Header2'
 import About from '../Components/About'
 import BottomNav from '../Components/BottomNav'
-import DashboardHeader from '../Components/DashboardHeader'
-import Dashboard from '../Components/Dashboard'
+import ReferralHeader from "../Components/ReferralHeader"
+import Referral from '../Components/Referral'
 
-export default function AboutPage() {
+export default function ReferralPage() {
   return (
    <>
     <section className='contact-containe'>
             <div className='DashboardPage-header-container '>
-                <DashboardHeader />
+                <ReferralHeader />
               </div>
-            <div>
-                <Dashboard />
+            <div className='myyRefer' style={{display:"flex", justifyContent: "center", marginTop: "100px"}}>
+                <Referral />
             </div>
                
             

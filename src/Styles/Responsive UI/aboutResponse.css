@@ -90,6 +90,9 @@
 .our-mission-container1 {
     gap: 250px !important;
 }
+.features-lists-lists{
+    width: 320px !important;
+}
 
 @media (max-width: 400px) {
     .HomePage-header-container {
