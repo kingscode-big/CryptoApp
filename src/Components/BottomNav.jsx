@@ -1,22 +1,26 @@
- import React from "react";
+import React from "react";
 import { Home, Grid, CreditCard, User } from "lucide-react";
 import "../BottomNav.css";
 import { Link } from "react-router-dom";
+import Referral from "./Referral"
 
 export default function BottomNav() {
   return (
     <nav className="bottom-nav">
-        <Link to={'/'} className='Link-lists'>
-         <button className="nav-item">
-           <Home size={24} />
-        <span>Home</span>
-      </button>
-        </Link> 
-     
-      <button className="nav-item">
-        <Grid size={24} />
-        <span>Dashboard</span>
-      </button>
+      <Link to={'/'} className='Link-lists'>
+        <button className="nav-item">
+          <Home size={24} />
+          <span>Home</span>
+        </button>
+      </Link>
+
+      <Link to={'/Referral'}>
+        <button className="nav-item">
+          <Grid size={24} />
+          <span>Dashboard</span>
+        </button>
+
+      </Link>
       <button className="nav-item">
         <CreditCard size={24} />
         <span>Wallet</span>

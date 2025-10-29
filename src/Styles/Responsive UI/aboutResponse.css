@@ -101,8 +101,9 @@
 }
 
 .about-descrip {
-    width: 1200px;
+    width: 1180px;
     justify-content: center;
+    margin-left: -10px;
 }
 
 
@@ -282,6 +283,9 @@
     .Header-section {
         width: 310px !important;
         gap: 170px;
+    }
+    .about-descrip{
+        width: 300px !important;
     }
 
 }

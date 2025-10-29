@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
      <section className='Home-container'>
-        <div className='HomePage-header-container'>
+        <div style={{display: "flex", justifyContent: "center"}}>
             <Header/>
         </div>
         <div className='Hero-container'>
