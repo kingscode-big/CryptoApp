@@ -29,6 +29,7 @@ function App() {
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/dashboard' element={<DashboardPage />} />
         <Route path='/referral' element={<ReferralPage />} />
+        <Route path="/layout" element={<Layout />} />
         
       </Routes>
 
