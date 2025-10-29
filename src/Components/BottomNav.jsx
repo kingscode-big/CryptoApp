@@ -7,15 +7,15 @@ import { Link } from "react-router-dom";
 export default function BottomNav() {
   return (
     <nav className="bottom-nav">
-      {/*<Link to='/' className='Link-lists'>
+      <Link to='/' className='Link-lists'>
         <button className="nav-item">
           <Home size={24} />
           <span>Home</span>
         </button>
-      </Link>*/}
+      </Link>
 
       
-      <Link to='/register'>
+      <Link to='/dashboard'>
         <button className="nav-item">
           <Grid size={24} />
           <span>Dashboard</span>
