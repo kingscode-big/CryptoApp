@@ -15,7 +15,7 @@ export default function BottomNav() {
       </Link>
 
       
-      <Link to='/dashboard'>
+      <Link to='/register'>
         <button className="nav-item">
           <Grid size={24} />
           <span>Dashboard</span>
