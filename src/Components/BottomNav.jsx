@@ -2,7 +2,7 @@ import React from "react";
 import { Home, Grid, CreditCard, User } from "lucide-react";
 import "../BottomNav.css";
 import { Link } from "react-router-dom";
-import Referral from "./Referral"
+import dashboard from "../Pages/DashboardPage"
 
 export default function BottomNav() {
   return (
@@ -14,7 +14,7 @@ export default function BottomNav() {
         </button>
       </Link>
 
-      <Link to={'/Referral'}>
+      <Link to={'/dashboard'}>
         <button className="nav-item">
           <Grid size={24} />
           <span>Dashboard</span>

@@ -12,6 +12,7 @@ import RegisterPage from './Pages/RegisterPage';
 import DashboardPage from './Pages/DashboardPage'
 import ReferralPage from "./Pages/ReferralPage"
 
+
 function App() {
  
 
