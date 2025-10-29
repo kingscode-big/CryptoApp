@@ -6,7 +6,7 @@ import HomePage from './Pages/HomePage'
 import ContactPage from './Pages/ContactPage';
 import AboutPage from './Pages/AboutPage';
 import HelpPage from './Pages/HelpPage';
-import Layout from './Components/Layout';
+
 import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
 import DashboardPage from './Pages/DashboardPage'
@@ -29,7 +29,7 @@ function App() {
         <Route path='/register' element={<RegisterPage/>} />
         <Route path='/dashboard' element={<DashboardPage />} />
         <Route path='/referral' element={<ReferralPage />} />
-        <Route path="/layout" element={<Layout />} />
+        
         
       </Routes>
 
