@@ -15,7 +15,7 @@ export default function BottomNav() {
       </Link>
 
       
-      <Link to='/dashboard'>
+      <Link to='/dashboard' className='Link-lists'>
         <button className="nav-item">
           <Grid size={24} />
           <span>Dashboard</span>

@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <DashboardHeader />
               </div>
             <div>
-                <Dashboard />
+                <Dashboard />          
             </div>
                
             
